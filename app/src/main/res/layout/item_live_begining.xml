@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_backgrount_color"
+    android:id="@+id/ll_item_click">
+
+
+    <ImageView
+        android:id="@+id/iv_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/live_bg_item_red"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/iv_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white_color">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="导师名"
+                android:textColor="@color/yellow_color"
+                android:textSize="@dimen/fourteen" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/fourteen"
+                android:text="："
+                android:textColor="@color/yellow_color"/>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="直播主题1行"
+                android:textColor="@color/yellow_color"
+                android:textSize="@dimen/fourteen" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_color">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#F8F8F8"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="6dp">
+                        <com.jgcj.library.util.CircleImageView
+                            android:id="@+id/iv_icon"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginLeft="5dp"
+                            />
+                        <TextView
+                            android:id="@+id/tv_team_t_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="潜龙战队-杨老师"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/twelve"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="显示导师简介 2行 行间距18 字号12pt #888888 左间距5右间距10pt 超 行间距18 字号12pt #888888 左间距5右间距10pt 超出不显示"
+                        android:textColor="@color/dark"
+                        android:textSize="@dimen/twelve"
+                        android:maxLines="2"
+                        android:ellipsize="end"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_height"
+        android:layout_width="2dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/spliter_line_color"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/iv_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white_color">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@mipmap/live_bg_red"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fifteen"
+                android:text="直播标题"
+                android:textColor="@color/white_color" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="09:00-10:30"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/twelve" />
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="已结束"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/twelve" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

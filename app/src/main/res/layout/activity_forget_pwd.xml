@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_backgrount_color">
+    <include layout="@layout/common_title"
+        android:id="@+id/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入需要找回密码的手机号"
+        android:textSize="@dimen/fifteen"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/spliter_line_color"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="@dimen/fifteen"
+            android:textColor="@color/black"
+            android:hint="手机号码"
+            android:textColorHint="@color/dark"
+            android:background="@color/white_color"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:maxLength="11"
+            android:inputType="number"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="1dp">
+            <EditText
+                android:id="@+id/et_verify_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/fifteen"
+                android:textColor="@color/black"
+                android:hint="短信验证码"
+                android:textColorHint="@color/dark"
+                android:background="@color/white_color"
+                android:paddingLeft="15dp"
+                android:maxLength="4"
+                android:inputType="number"
+                />
+            <RelativeLayout
+
+                android:layout_width="82dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp">
+
+                <TextView
+                    android:id="@+id/tv_send_verify_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="发送验证码"
+                    android:textColor="@color/black_dark"
+                    android:textSize="@dimen/twelve" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/app_backgrount_color"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:background="@color/white_color">
+
+        <com.joker.pager.BannerPager
+            android:id="@+id/banner_pager"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/white_color"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:src="@mipmap/hp_shadow"
+            android:layout_marginTop="156dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#fff"
+        android:layout_marginTop="6dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"/>
+
+        <LinearLayout
+            android:id="@+id/points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fff"
+        android:layout_marginTop="6dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

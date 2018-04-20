@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white_color"
+    android:id="@+id/ll_item_click"
+    android:paddingTop="15dp"
+    android:paddingBottom="20dp"
+    android:paddingRight="15dp"
+    >
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="130dp"
+        android:layout_height="78dp"
+        android:background="@color/dark"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/fourteen"
+            android:textColor="@color/black"
+            android:text="左间距5pt 右15pt 1行"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/twelve"
+                    android:textColor="@color/black"
+                    android:text="王新华"
+                    android:maxLines="1"
+                    android:ellipsize="end"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="15dp"
+                    android:background="#D93F3F"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <TextView
+                    android:id="@+id/tv_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/twelve"
+                    android:textColor="@color/black"
+                    android:text="谈股论期"
+                    android:maxLines="1"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="2018/02/13"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/twelve" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
