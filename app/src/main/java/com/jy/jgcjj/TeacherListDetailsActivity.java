@@ -7,6 +7,7 @@ import android.view.View;
 import com.github.jdsjlzx.interfaces.OnItemClickListener;
 import com.github.jdsjlzx.interfaces.OnLoadMoreListener;
 import com.github.jdsjlzx.interfaces.OnRefreshListener;
+import com.jgcj.library.util.Utils;
 import com.jy.jgcjj.adapter.BaseRecyclerAdapter;
 import com.jy.jgcjj.adapter.TeacherListDetailsAdapter;
 import com.jy.jgcjj.base.BaseListActivity;
@@ -24,11 +25,6 @@ public class TeacherListDetailsActivity extends BaseListActivity<TeacherDetailsB
     @Override
     protected int getLayoutId() {
         return R.layout.activity_teacher_list_details;
-    }
-
-    @Override
-    public void initView() {
-        super.initView();
     }
 
     @Override

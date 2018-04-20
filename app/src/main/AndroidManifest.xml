@@ -61,6 +61,9 @@
             android:name=".PicViewActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".TeacherListActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".NewsActivity"
             android:screenOrientation="portrait" />
         <activity

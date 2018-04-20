@@ -56,7 +56,7 @@ public class FragmentHall extends BaseListFragment<ResponseFragmentHallBean> {
 	private ImageView[] m_ivPoints;
 	private int m_iTotalPage;
 	private int m_iPageSize = 3;
-	private int m_iViewPageSize = 4;
+	private int m_iViewPageSize = 3;
 	private List<ProdctBean> m_listDatas;
 	private String[] m_arrProName = {"期学堂","视频回放","名师"};
 	private int[] m_arrProPic = {R.mipmap.head_s,R.mipmap.head_s,R.mipmap.head_s};
@@ -144,10 +144,8 @@ public class FragmentHall extends BaseListFragment<ResponseFragmentHallBean> {
 								startActivity(it);
 								break;
 							case "名师":
-
-								break;
-							case "发现":
-
+								it = new Intent(getMContext(),TeacherListActivity.class);
+								startActivity(it);
 								break;
 						}
 					}
