@@ -62,7 +62,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@color/black_light">
+                android:background="@mipmap/aaaaa">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -167,56 +167,62 @@
         android:background="@color/white_color"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:id="@+id/ll_intent2"
         >
+
         <RelativeLayout
+            android:id="@+id/rl_mingshi"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@color/white_color"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            >
+            android:paddingRight="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_centerVertical="true"
-                >
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:src="@mipmap/hp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
                     android:text="名师讲期货"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/fourteen"
-                    android:layout_marginLeft="5dp"/>
+                    android:textSize="@dimen/fourteen" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginRight="5dp"
-                android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
-                android:gravity="center_vertical">
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/twelve"
+                    android:text="更多"
                     android:textColor="@color/black"
-                    android:text="更多"/>
+                    android:textSize="@dimen/twelve" />
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/my_more"/>
+                    android:src="@mipmap/my_more" />
             </LinearLayout>
         </RelativeLayout>
         <LinearLayout
+            android:id="@+id/ll_mingshi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -283,6 +289,7 @@
 
 
     <LinearLayout
+        android:id="@+id/ll_intent3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white_color"
@@ -295,7 +302,7 @@
             android:background="@color/white_color"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:id="@+id/rl_intent3"
+            android:id="@+id/rl_juemi"
             >
 
             <LinearLayout
@@ -340,6 +347,7 @@
         </RelativeLayout>
 
         <LinearLayout
+            android:id="@+id/ll_juemi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -359,7 +367,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp">
 
                     <TextView
                         android:id="@+id/tv_name3"
@@ -426,6 +435,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_intent4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white_color"
@@ -438,7 +448,7 @@
             android:background="@color/white_color"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:id="@+id/rl_intent4"
+            android:id="@+id/rl_jingxuan"
             >
 
             <LinearLayout
@@ -483,6 +493,7 @@
         </RelativeLayout>
 
         <LinearLayout
+            android:id="@+id/ll_jingxuan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -552,6 +563,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_intent5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white_color"
@@ -559,12 +571,12 @@
         android:layout_marginTop="10dp"
         >
         <RelativeLayout
+            android:id="@+id/rl_shichang"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@color/white_color"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:id="@+id/rl_intent5"
             >
 
             <LinearLayout
@@ -609,6 +621,7 @@
         </RelativeLayout>
 
         <LinearLayout
+            android:id="@+id/ll_shichang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"

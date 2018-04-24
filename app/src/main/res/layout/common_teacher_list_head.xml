@@ -28,12 +28,11 @@
             android:orientation="horizontal"
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="15dp">
+
             <ImageView
+                android:id="@+id/iv_icon"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@mipmap/gxt_icon"
-                android:scaleType="centerCrop"
-                />
+                android:layout_height="60dp"/>
             <LinearLayout
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
@@ -70,25 +69,28 @@
             android:textSize="@dimen/fourteen"
             android:textColor="@color/black"
             android:text="导师简介"/>
+
         <TextView
+            android:id="@+id/iv_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/fourteen"
-            android:textColor="@color/black"
             android:layout_marginLeft="@dimen/ten"
             android:text="毕业于上海师范大学，十年券商生涯中一直致力于研究主力基金的布局和操作手法。
 擅长通过一项思维/股价转折点/量价异动以及K线走势分析等，
-导师简介左间距10pt 右间距15pt 不限制行数。行高20 底部间距15pt"/>
+导师简介左间距10pt 右间距15pt 不限制行数。行高20 底部间距15pt"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fourteen" />
     </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:textSize="@dimen/fourteen"
-        android:textColor="@color/black"
-        android:paddingLeft="15dp"
-        android:text="导师课程"
-        android:gravity="center_vertical"
+        android:layout_marginBottom="1dp"
         android:layout_marginTop="6dp"
         android:background="@color/white_color"
-        android:layout_marginBottom="1dp"/>
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="相关视频"
+        android:textColor="@color/black"
+        android:textSize="@dimen/fourteen" />
 </LinearLayout>

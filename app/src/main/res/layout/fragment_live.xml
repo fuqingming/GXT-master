@@ -8,8 +8,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@color/white_color">
-        <include layout="@layout/common_title"
-            android:id="@+id/title"/>
+        <!--<include layout="@layout/common_title"-->
+            <!--android:id="@+id/title"/>-->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -30,7 +30,7 @@
                     android:visibility="gone"/>
             </FrameLayout>
 
-            <com.jy.jgcjj.view.error.ErrorLayout
+            <com.jy.jryjy.view.error.ErrorLayout
                 android:id="@+id/error_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

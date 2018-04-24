@@ -1,8 +1,5 @@
 package com.jgcj.library.cache;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -11,6 +8,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 
 /**
  * 图片工具类
@@ -41,7 +41,7 @@ public class ImageUtil {
 			is = conn.getInputStream();
 			os = new FileOutputStream(file);
 			copyStream(is, os);
-
+			
 			bitmap = decodeFile(file);
 			return bitmap;
 		} catch (Exception ex) {
@@ -71,12 +71,12 @@ public class ImageUtil {
 		try {
 			// decode image size
 			BitmapFactory.Options options = new BitmapFactory.Options();
+			options.inJustDecodeBounds = true;
+			BitmapFactory.decodeStream(new FileInputStream(f), null, options);
+			int inSampleSize = computeSampleSize(options, -1, 128 * 128);
+			// decode with inSampleSize
+			options.inSampleSize = inSampleSize;
 			options.inJustDecodeBounds = false;
-//			BitmapFactory.decodeStream(new FileInputStream(f), null, options);
-//			int inSampleSize = computeSampleSize(options, -1, 128000 * 128000);
-//			// decode with inSampleSize
-//			options.inSampleSize = inSampleSize;
-//			options.inJustDecodeBounds = false;
 			return BitmapFactory.decodeStream(new FileInputStream(f), null, options);
 		} catch (Exception e) {
 		} 
@@ -84,7 +84,7 @@ public class ImageUtil {
 	}
 	
 	public static void copyStream(InputStream is, OutputStream os) {
-		final int buffer_size = 10240;
+		final int buffer_size = 1024;
 		try {
 			byte[] bytes = new byte[buffer_size];
 			for (;;) {
@@ -131,7 +131,7 @@ public class ImageUtil {
 
 		int lowerBound = (maxNumOfPixels == -1) ? 1 : (int) Math.ceil(Math
 				.sqrt(w * h / maxNumOfPixels));
-		int upperBound = (minSideLength == -1) ? 12800 : (int) Math.min(
+		int upperBound = (minSideLength == -1) ? 128 : (int) Math.min(
 				Math.floor(w / minSideLength), Math.floor(h / minSideLength));
 
 		if (upperBound < lowerBound) {

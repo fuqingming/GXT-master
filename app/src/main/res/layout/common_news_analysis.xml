@@ -65,6 +65,7 @@
             </LinearLayout>
             <!--分类-->
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/ll_class"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"

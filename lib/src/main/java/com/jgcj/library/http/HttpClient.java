@@ -63,7 +63,7 @@ public class HttpClient {
 
             OkHttpClient okHttpClient = builder.build();
 
-            String baseUrl = "http://gxt.mqcll.cn";
+            String baseUrl = "http://gxt.mqcll.cn/";
 
             mNovate = new Novate.Builder(appliactionContext)
                     .addCache(false)

@@ -10,23 +10,380 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3647e251-39c3-4720-a988-3900be06c8a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/TeacherListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/TeacherListBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_list.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_teacher_list_info.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/aaaaa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/live_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/mingshi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/xueqitang.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cn_jiguang_sdk_jcore_1_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cn_jiguang_sdk_jpush_3_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentTrade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/LivePlaybackActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MyReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/NewsWebViewActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TradeActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/ClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/FragmentHallAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/NewsAnalysisAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/VideoTypeCheckedAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/ClassBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/LiveBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/LiveNowBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/TeacherAnalysisBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/TeacherPopBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseClassBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseHallBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseNewsAnalysisBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseTeacherDetailsBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_live_playback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_news_webview.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_trade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_image_banner_class.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/backhandler/OnBackPressedInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/view/ImageViewRound.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/FragmentHallAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsAnalysisAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/LiveBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/TeacherAnalysisBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/gxt_class_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/gxt_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/gxt_integral_pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-52-46-838.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-52-46-838.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-53-05-855.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-53-05-855.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-54-36-859.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-54-36-859.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-54-45-874.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-54-45-874.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-55-00-098.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-55-00-098.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-57-45-911.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-57-45-911.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-57-50-672.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-57-50-672.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-58-01-330.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-58-01-330.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-58-14-719.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-58-14-719.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-58-19-663.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-58-19-663.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-58-32-836.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-13-58-32-836.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-00-31-029.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-00-31-029.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-00-42-973.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-00-42-973.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-01-02-924.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-01-02-924.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-04-31-533.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-04-31-533.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-04-38-553.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-04-38-553.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-05-04-960.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-05-04-960.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-05-11-774.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-05-11-774.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-05-17-944.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-05-17-944.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-06-06-528.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-06-06-528.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-19-51-201.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-14-19-51-201.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-12-41-184.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-12-41-184.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-17-11-766.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-17-11-766.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-19-22-077.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-19-22-077.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-28-55-998.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-28-55-998.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-29-14-080.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-29-14-080.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-31-22-579.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-31-22-579.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-34-43-815.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-34-43-815.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-34-49-420.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-34-49-420.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-37-28-405.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-37-28-405.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-37-45-731.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-37-45-731.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-38-37-404.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-38-37-404.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-43-26-900.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-43-26-900.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-43-45-998.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-43-45-998.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-47-58-308.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-47-58-308.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-48-09-179.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-48-09-179.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-51-16-036.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-51-16-036.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-51-40-789.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-51-40-789.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-52-12-818.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-15-52-12-818.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-04-56-995.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-04-56-995.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-05-36-345.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-05-36-345.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-06-13-635.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-06-13-635.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-08-41-283.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-08-41-283.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-11-41-148.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-11-41-148.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-11-47-087.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-11-47-087.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-16-09-097.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-16-09-097.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-16-31-103.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-16-31-103.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-17-11-811.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-16-17-11-811.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-19-37-360.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-19-37-360.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-22-30-537.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-22-30-537.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-27-57-647.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-27-57-647.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-33-18-046.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-33-18-046.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-37-35-924.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-37-35-924.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-58-41-325.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-17-58-41-325.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-18-00-09-270.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-18-00-09-270.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-18-01-50-914.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-18-01-50-914.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-18-03-27-278.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-18-03-27-278.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-18-10-42-075.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-20-18-10-42-075.rawproto" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentHall.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentHall.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListDetailsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListDetailsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_choice_class.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_choice_class.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_class.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_class.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mine.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mine.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pic_view.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pic_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_list_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_list_details.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/chat_item_list_left.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chat_item_list_left.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/chat_item_list_right.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chat_item_list_right.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/common_class_head.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/common_class_head.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/common_fragment_hall_banner.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/common_fragment_hall_banner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/common_news_analysis.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/common_news_analysis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/common_teacher_list_head.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/common_teacher_list_head.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_hall.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_hall.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_live.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_live.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mine.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mine.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_analysis.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_analysis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_information.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_information.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_record.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_record.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_university.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_university.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_train.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_train.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_video.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_video.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_fragment_hall_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_fragment_hall_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_live_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_live_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_teacher_details_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_teacher_details_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_teacher_list_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_teacher_list_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_viewpapger_selet_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_viewpapger_selet_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/loading_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/loading_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easeui/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/easeui/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easeui/build/intermediates/blame/res/androidTest/debug/single/debug.json" afterPath="$PROJECT_DIR$/easeui/build/intermediates/blame/res/androidTest/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easeui/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/easeui/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easeui/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/easeui/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easeui/easeui.iml" afterPath="$PROJECT_DIR$/easeui/easeui.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/lib.iml" afterPath="$PROJECT_DIR$/lib/lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/AsyncImageLoader.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/AsyncImageLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/FileCache.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/FileCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/ImageCacheManager.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/ImageCacheManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/ImageUtil.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/ImageUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/MemoryCache.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/MemoryCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/constants/GlobalVariables.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/constants/GlobalVariables.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/http/ApiStores.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/http/ApiStores.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/http/HttpClient.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/http/HttpClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/util/DirSettings.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/util/DirSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/util/Utils.java" afterPath="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/util/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/res/layout/common_title.xml" afterPath="$PROJECT_DIR$/lib/src/main/res/layout/common_title.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/lib/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/library.iml" afterPath="$PROJECT_DIR$/library/library.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nicevideoplayer/nicevideoplayer.iml" afterPath="$PROJECT_DIR$/nicevideoplayer/nicevideoplayer.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/jy/jgcjj/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/jy/jryjy/ExampleInstrumentedTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/AgreementActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/AgreementActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ChangeNicknameActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ChangeNicknameActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ChangePwdActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ChangePwdActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ChatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ChatActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ChatLiveActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ChatLiveActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ChoiceClassActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ChoiceClassActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ClassActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ClassActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ForgetPwdActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ForgetPwdActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentHall.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentHall.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentLive.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentLive.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentLiveTrain.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentLiveTrain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentLiveVideo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentLiveVideo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentMine.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentMine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsAnalysis.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentNewsAnalysis.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsInformation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentNewsInformation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsRecord.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentNewsRecord.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsUniversity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentNewsUniversity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentVideo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentVideo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/GuideActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/GuideActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/LoginActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/MessageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MessageActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/MineActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MineActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/NewPwdActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/NewPwdActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/NewsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/NewsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/OpinionActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/OpinionActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/PicViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/PicViewActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/RegisterActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/SetActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/SetActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherDetailsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TeacherDetailsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TeacherListActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListDetailsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TeacherListDetailsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/BaseRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/BaseRecyclerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/ChatAllAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/ChatAllAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/ChatLiveAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/ChatLiveAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/ChatTeacherAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/ChatTeacherAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/ChoiceClassAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/ChoiceClassAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/FragmentLiveAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/FragmentLiveAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/FragmentTrainAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/FragmentTrainAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/InformationAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/InformationAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/LiveAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/LiveAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/LiveBeginingAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/LiveBeginingAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/LiveOverAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/LiveOverAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/LivePlayBackAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/LivePlayBackAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/LiveWillAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/LiveWillAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/MessageAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/MessageAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/MyGridViewAdpter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/MyGridViewAdpter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/MyGridViewPapgerAdpter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/MyGridViewPapgerAdpter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/MyViewPagerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/MyViewPagerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsInformationAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/NewsInformationAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsRecordAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/NewsRecordAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsUniversityAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/NewsUniversityAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/TeacherListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/TeacherListAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/TeacherListDetailsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/TeacherListDetailsAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/VedioAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/VedioAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/VideoTypeCheckedAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/ClassTypeCheckedAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BaseAppCompatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseAppCompatActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BaseApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BaseFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BaseListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseListActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BaseListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseListFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BasePopListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BasePopListActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BasePopListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BasePopListFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/FragmentActivityBase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/FragmentActivityBase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/VideoPlayerBaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/VideoPlayerBaseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/BannerBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/BannerBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/ChatLiveMessageBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/ChatLiveMessageBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/ChatMessageBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/ChatMessageBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/GXInformationBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/GXInformationBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/GXUniversityBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/GXUniversityBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/LiveBeginingBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/LiveBeginingBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/LiveInformationBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/LiveInformationBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/LiveMsgBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/LiveMsgBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/LiveOverBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/LiveOverBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/LiveVedioBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/LiveVedioBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/LiveWillBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/LiveWillBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/LoginBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/LoginBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/MessageBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/MessageBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/Messages.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/Messages.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/ProdctBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/ProdctBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/ProdctSeletBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/ProdctSeletBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/RecordBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/RecordBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/RoomBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/RoomBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/TeacherBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/TeacherBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/TeacherDetailsBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/TeacherDetailsBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/TeacherListBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/TeacherListBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/VideoPlayBackBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/VideoPlayBackBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseBaseBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseBaseBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseChangeHeadBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseChangeHeadBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseChatBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseChatBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseChatLiveMessageBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseChatLiveMessageBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseChatMessageBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseChatMessageBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseFollowBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseFollowBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseFragmentHallBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseFragmentHallBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseFragmentLiveBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseFragmentLiveBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseHallBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseLiveBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseLoginBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseLoginBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseMessageBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseMessageBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseTeacherBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseTeacherBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/response/ResponseTrainBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseTrainBean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/ChatRoomListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/ChatRoomListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/Constant.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/Constant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/DemoHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/DemoHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/DemoModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/DemoModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/db/DbOpenHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/db/DbOpenHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/db/DemoDBManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/db/DemoDBManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/db/InviteMessgeDao.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/db/InviteMessgeDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/db/UserDao.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/db/UserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/domain/InviteMessage.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/domain/InviteMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/domain/RobotUser.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/domain/RobotUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/fcm/EMFCMMSGService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/fcm/EMFCMMSGService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/fcm/EMFCMTokenRefreshService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/fcm/EMFCMTokenRefreshService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/parse/ParseManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/parse/ParseManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/parse/UserProfileManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/parse/UserProfileManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/receiver/StartServiceReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/receiver/StartServiceReceiver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/runtimepermissions/Permissions.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/runtimepermissions/Permissions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/runtimepermissions/PermissionsResultAction.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/runtimepermissions/PermissionsResultAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/utils/EMNotificationManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/utils/EMNotificationManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/utils/PreferenceManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/utils/PreferenceManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/video/util/ImageCache.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/video/util/ImageCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/video/util/ImageWorker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/video/util/ImageWorker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/video/util/RecyclingBitmapDrawable.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/video/util/RecyclingBitmapDrawable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/huanxin/video/util/Utils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/huanxin/video/util/Utils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/util/DataUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/util/DataUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/util/HUDProgressUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/util/HUDProgressUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/util/Upload.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/util/Upload.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/util/alert/Alert.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/util/alert/Alert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/util/alert/AlertCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/util/alert/AlertCallback.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/util/alert/AlertUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/util/alert/AlertUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/BigImage/FengNiaoImageSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/BigImage/FengNiaoImageSource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/BigImage/HugeImageRegionLoader.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/BigImage/HugeImageRegionLoader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/BigImage/ImageObject.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/BigImage/ImageObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/BigImage/ImageRegionLoader.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/BigImage/ImageRegionLoader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/BigImage/ImageSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/BigImage/ImageSource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/BigImage/TileDrawable.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/BigImage/TileDrawable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/PinchImageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/PinchImageView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/commonRecyclerAdapter/AdapterConfig.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/commonRecyclerAdapter/AdapterConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/commonRecyclerAdapter/AdapterImageLoader.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/commonRecyclerAdapter/AdapterImageLoader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/commonRecyclerAdapter/ArrayRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/commonRecyclerAdapter/ArrayRecyclerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/commonRecyclerAdapter/CommonRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/commonRecyclerAdapter/CommonRecyclerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/commonRecyclerAdapter/DefaultLoadMoreView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/commonRecyclerAdapter/DefaultLoadMoreView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/commonRecyclerAdapter/LoadMoreView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/commonRecyclerAdapter/LoadMoreView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/commonRecyclerAdapter/ViewBinder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/commonRecyclerAdapter/ViewBinder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/commonRecyclerAdapter/ViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/commonRecyclerAdapter/ViewHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/error/ErrorLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/error/ErrorLayout.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/popupwindow/BaseFilter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/popupwindow/BaseFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/popupwindow/CommonFilterPop.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/popupwindow/CommonFilterPop.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/recyclerview/BaseRecyclerViewAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/recyclerview/BaseRecyclerViewAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/recyclerview/BaseRecyclerViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/recyclerview/BaseRecyclerViewHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/view/recyclerview/RecycleViewDivider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/recyclerview/RecycleViewDivider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/test/java/com/jy/jgcjj/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/jy/jryjy/ExampleUnitTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,30 +421,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="FragmentHall.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentHall.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentHall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="146" column="72" lean-forward="false" selection-start-line="146" selection-start-column="72" selection-end-line="146" selection-end-column="72" />
+            <state relative-caret-position="-798">
+              <caret line="146" column="73" lean-forward="false" selection-start-line="146" selection-start-column="73" selection-end-line="146" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherListActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListActivity.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="70" column="67" lean-forward="true" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+            <state relative-caret-position="154">
+              <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherListAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/TeacherListAdapter.java">
+      <file leaf-file-name="BaseApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            <state relative-caret-position="-142">
+              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,47 +455,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_teacher_list_info.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_teacher_list_info.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="BaseAppCompatActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseAppCompatActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="361">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="46" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherListDetailsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListDetailsActivity.java">
+      <file leaf-file-name="BaseListActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="428">
+              <caret line="305" column="4" lean-forward="false" selection-start-line="305" selection-start-column="4" selection-end-line="315" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common_teacher_list_head.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/common_teacher_list_head.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="BasePopListActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BasePopListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="732">
+              <caret line="455" column="5" lean-forward="false" selection-start-line="455" selection-start-column="5" selection-end-line="455" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-331">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherDetailsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherDetailsActivity.java">
+      <file leaf-file-name="TeacherListActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TeacherListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-665">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="334">
+              <caret line="71" column="63" lean-forward="false" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiStores.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/http/ApiStores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/NewsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="60" column="43" lean-forward="false" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -152,36 +536,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>callHttpForSearchChatMsgAll</find>
-      <find>m_strTeacherId</find>
-      <find>adapterAll</find>
-      <find>ChatMessageBean</find>
-      <find>jo</find>
-      <find>joinRoom</find>
-      <find>initCommonTitle</find>
-      <find>m_llPop</find>
-      <find>rxbinding</find>
-      <find>AgreementActivity</find>
-      <find>ForgetPwdActivity</find>
-      <find>packagingOptions</find>
-      <find>ll_clean</find>
-      <find>FrescoImageLoader</find>
-      <find>rxjava</find>
-      <find>recyclerview</find>
-      <find>appcompat</find>
-      <find>exifinterface</find>
-      <find>rxandroid</find>
-      <find>ucrop</find>
-      <find>universalimageloader</find>
-      <find>WRITE_EXTERNAL_STORAGE</find>
-      <find>setLayoutResourceID</find>
-      <find>ClassActivity.this</find>
-      <find>onScrollChangedListen</find>
+      <find>x</find>
+      <find>xx</find>
+      <find>xxh</find>
+      <find>activity_attention.xml</find>
+      <find>activity_attention.xm</find>
+      <find>activity_attention.x</find>
+      <find>activity_attention.</find>
+      <find>MESSAGE_RECEIVED</find>
+      <find>activity_attention</find>
+      <find>j</find>
+      <find>jgcj</find>
+      <find>setDebugMode</find>
+      <find>xuetangparent</find>
+      <find>getClass</find>
+      <find>iv_icon</find>
+      <find>m_ivIcon</find>
+      <find>iv_back_live</find>
+      <find>onKeyDown</find>
+      <find>ll_change_pwd</find>
       <find>ClassActivity</find>
-      <find>cb_teacher</find>
-      <find>setLayoutResourceId</find>
-      <find>TeacherListDetailsActivity</find>
-      <find>ll_item_click</find>
+      <find>LivePlaybackActivity</find>
+      <find>strPlayUrl</find>
+      <find>m_ivPic</find>
+      <find>loadBitmap</find>
+      <find>serverUserIcon</find>
+      <find>EventBus</find>
+      <find>getDefault</find>
+      <find>onresume</find>
+      <find>READ_PHONE_STATE</find>
+      <find>StatService</find>
     </findStrings>
     <replaceStrings>
       <replace>hp_ic</replace>
@@ -5612,65 +5996,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentMine.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/SetActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_set.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mine.xml" />
-        <option value="$PROJECT_DIR$/nicevideoplayer/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/http/HttpClient.java" />
-        <option value="$PROJECT_DIR$/library/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/MineActivity.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/lib/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/view/ViewPagerIndicator.java" />
-        <option value="$PROJECT_DIR$/lib/src/main/res/values/attrs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_news.xml" />
-        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/view/NoScrollViewPager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BaseAppCompatActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_news.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/TeacherAnalysisBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_news_analysis_info.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_news_analysis.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BasePopListActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsAnalysisAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/common_news_analysis.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/RecordBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_news_record_info.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsRecordAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/GXInformationBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_news_information_info.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsInformationAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/GXUniversityBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_news_university_info.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsUniversityAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/NewsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/MainActivity.java" />
-        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/constants/GlobalVariables.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsInformation.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsUniversity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_news_analysis.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsAnalysis.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsRecord.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/TeacherListBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/util/DataUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/NewsAnalysisAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/base/ClassBean.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/bean/response/ResponseClassBean.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_teacher_details_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_class.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/common_class_head.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_image_banner_class.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/ClassAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/FragmentHallAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/TeacherListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/TeacherListDetailsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/LiveAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/LivePlaybackActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TradeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_trade.xml" />
+        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/util/Utils.java" />
+        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/backhandler/OnBackPressedInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentTrade.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/SetActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ClassActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentHall.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/common_fragment_hall_banner.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/NewsRecordAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/NewsInformationAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_fragment_hall_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TeacherListDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentLiveVideo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentLiveTrain.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MessageActivity.java" />
+        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/FileCache.java" />
+        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/MemoryCache.java" />
+        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/ImageCacheManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/LazyAdapter.java" />
+        <option value="$PROJECT_DIR$/lib/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/FragmentTrainAdapter.java" />
+        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/AsyncImageLoader.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MineActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentMine.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mine.xml" />
+        <option value="$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/http/ApiStores.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TeacherListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentHall.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_list_details.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_list.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_teacher_list_info.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/TeacherListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BasePopListActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="15" />
-    <option name="y" value="9" />
+    <option name="y" value="7" />
     <option name="width" value="1881" />
-    <option name="height" value="981" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -5690,23 +6074,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JGCJ" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -5729,196 +6096,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jgcj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jgcj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -5960,62 +6137,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -6053,7 +6174,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jgcjj" />
+              <option name="myItemId" value="jryjy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -6091,53 +6212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jgcjj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GXT-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jgcjj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
+              <option name="myItemId" value="jryjy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -6159,36 +6234,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jgcjj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JGCJ" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -6196,20 +6264,20 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="device.picker.selection" value="8c7e4e60" />
+    <property name="device.picker.selection" value="06157df62d5dea13" />
     <property name="last_opened_file_path" value="D:/demo/demo/RxGalleryFinal-master" />
-    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_g906k-8c7e4e60" />
-    <property name="DEBUGGABLE_PROCESS" value="com.jy.jgcj" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_g9280-06157df62d5dea13" />
+    <property name="DEBUGGABLE_PROCESS" value="com.jy.jryjy" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\GXT-master\GXT-master\app\src\main\res\layout" />
+      <recent name="D:\workspace\GXT-master\GXT-master\app\src\main\java\com\jy\jryjy" />
+      <recent name="D:\workspace\GXT-master\GXT-master\lib\src\main\java\com\jgcj\library" />
+      <recent name="D:\workspace\GXT-master\GXT-master\lib\src\main\java\com\jgcj\library\backhandler" />
       <recent name="D:\workspace\GXT-master\GXT-master\app\src\main\res\mipmap-xhdpi" />
-      <recent name="D:\workspace\GXT-master\GXT-master" />
-      <recent name="D:\workspace\GXT-master\GXT-master\app\src\main\res\drawable" />
-      <recent name="D:\workspace\GXT-master\GXT-master\library\src\main\res\drawable" />
+      <recent name="D:\workspace\GXT-master\GXT-master\app\src\main\res\layout" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.jy.jgcj" />
@@ -6221,16 +6289,17 @@
       <recent name="D:\workspace\JGCJ\JGCJ\app\src\main\res\layout" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jy.jgcjj" />
       <recent name="com.jy.jgcjj.adapter" />
       <recent name="com.jgcj.library" />
       <recent name="com.jy.jgcj" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jy.jgcjj.bean.base" />
-      <recent name="com.jy.jgcjj.adapter" />
-      <recent name="com.jy.jgcjj" />
+      <recent name="com.jy.jryjy.bean.response" />
+      <recent name="com.jy.jryjy.bean.base" />
+      <recent name="com.jy.jryjy.adapter" />
       <recent name="com.jgcj.library.view" />
-      <recent name="com.jy.jgcjj.bean.response" />
+      <recent name="com.jy.jgcjj" />
     </key>
     <key name="android.template.parentActivityClass">
       <recent name="" />
@@ -6319,7 +6388,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524219092655" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524555963636" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -6367,7 +6436,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524219092655" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524555963636" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -6550,7 +6619,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524219092656" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524555963637" />
       </method>
     </configuration>
     <list size="1">
@@ -6592,31 +6661,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="9" width="1881" height="981" extended-state="0" />
+    <frame x="15" y="7" width="1881" height="983" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2712795" sideWeight="0.5069204" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3760186" sideWeight="0.5019542" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296837" sideWeight="0.493579" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2676399" sideWeight="0.49588138" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2985437" sideWeight="0.49588138" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22506082" sideWeight="0.4914882" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22451456" sideWeight="0.4914882" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25182483" sideWeight="0.4936848" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30218446" sideWeight="0.4936848" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39902675" sideWeight="0.5041186" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2712795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22075783" sideWeight="0.49307957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -6631,7 +6700,7 @@
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2712795" sideWeight="0.5069204" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3760186" sideWeight="0.5019542" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296837" sideWeight="0.493579" order="9" side_tool="false" content_ui="tabs" />
@@ -6641,21 +6710,21 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2676399" sideWeight="0.49588138" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2985437" sideWeight="0.49588138" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22506082" sideWeight="0.4914882" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22451456" sideWeight="0.4914882" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25182483" sideWeight="0.4936848" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30218446" sideWeight="0.4936848" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39902675" sideWeight="0.5041186" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27182865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22075783" sideWeight="0.49307957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -6666,407 +6735,389 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ChatLiveActivity.java</url>
-          <line>669</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ChatLiveActivity.java</url>
-          <line>668</line>
-          <properties class="com.jy.jgcjj.ChatLiveActivity" method="callHttpForSearchChatMsgAll">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/TeacherAnalysisBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_news_analysis_info.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="52" lean-forward="false" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BasePopListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="66" column="56" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_class.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1995">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/ClassActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="44" column="84" lean-forward="false" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/TeacherListDetailsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="66" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/common_class_head.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/common_news_analysis.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_image_banner_analysis.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_image_banner_hall.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/RecordBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_news_record_info.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1787">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsRecordAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="e#904#905#0" expanded="false" />
-            <element signature="e#957#958#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_news_record.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/GXInformationBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_news_information_info.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsInformationAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsAnalysisAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/GXUniversityBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_news_university_info.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_news_university.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/constants/GlobalVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BasePopListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentMine.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/NewsRecordAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="60" column="60" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="60" />
+          <caret line="53" column="85" lean-forward="false" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsInformation.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/NewsInformationAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#1027#1028#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="392">
+          <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsUniversity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/FragmentHallAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#1072#1073#0" expanded="false" />
-            <element signature="e#1139#1140#0" expanded="false" />
-            <element signature="e#1617#1759#0" expanded="false" />
-            <element signature="e#1758#1759#0" expanded="false" />
-            <element signature="e#1807#2182#0" expanded="false" />
-            <element signature="e#2181#2182#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_news.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_fragment_hall_info.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/NewsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="65" column="50" lean-forward="false" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+          <caret line="370" column="50" lean-forward="false" selection-start-line="370" selection-start-column="50" selection-end-line="370" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/bean/base/TeacherListBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_details.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3079">
+        <state relative-caret-position="228">
+          <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="231" column="47" lean-forward="false" selection-start-line="231" selection-start-column="34" selection-end-line="231" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="94" column="60" lean-forward="false" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/NewPwdActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ForgetPwdActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="217" column="71" lean-forward="false" selection-start-line="217" selection-start-column="71" selection-end-line="217" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="104" column="40" lean-forward="false" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentNewsAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2774">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentNewsRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentNewsInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentNewsUniversity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/ClassActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1957">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/TeacherListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="57" column="60" lean-forward="false" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TeacherListDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentLiveVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="215" column="47" lean-forward="true" selection-start-line="215" selection-start-column="8" selection-end-line="215" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MessageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="48" column="47" lean-forward="false" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mine.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/NewsUniversityAdapter.java">
+    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/MemoryCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="62" />
+        <state relative-caret-position="127">
+          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/AgreementActivity.java">
+    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/ImageUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/OpinionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="184">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_news_information.xml">
+    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/ImageCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/FileCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/LazyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/main/res/layout/view_error_layout.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="128" selection-end-column="15" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_news_analysis.xml">
+    <entry file="file://$PROJECT_DIR$/lib/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/view/error/ErrorLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="84" column="58" lean-forward="false" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/cache/AsyncImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/GuideActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="24" column="58" lean-forward="false" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/start_up.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-707">
-          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/base/BaseListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentNewsAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="206" column="8" lean-forward="false" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="167" />
+          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentLive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/adapter/FragmentTrainAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentLiveTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/MineActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="175" column="74" lean-forward="false" selection-start-line="175" selection-start-column="63" selection-end-line="175" selection-end-column="74" />
+          <folding>
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#6721#7610#0" expanded="true" />
+            <element signature="e#7609#7610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentMine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding>
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mine.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/NewsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="60" column="43" lean-forward="false" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/http/ApiStores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/TeacherListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="71" column="63" lean-forward="false" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -7076,102 +7127,58 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="64" column="51" lean-forward="false" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+        <state relative-caret-position="154">
+          <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/main/java/com/jgcj/library/util/Utils.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_list_details.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_teacher_list.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/FragmentHall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="146" column="72" lean-forward="false" selection-start-line="146" selection-start-column="72" selection-end-line="146" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-665">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/common_teacher_list_head.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-331">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListDetailsActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/FragmentHall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="-798">
+          <caret line="146" column="73" lean-forward="false" selection-start-line="146" selection-start-column="73" selection-end-line="146" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_teacher_list_info.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/adapter/TeacherListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="-142">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jgcjj/TeacherListActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseAppCompatActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="70" column="67" lean-forward="true" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+        <state relative-caret-position="361">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="46" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BaseListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="305" column="4" lean-forward="false" selection-start-line="305" selection-start-column="4" selection-end-line="315" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jy/jryjy/base/BasePopListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="455" column="5" lean-forward="false" selection-start-line="455" selection-start-column="5" selection-end-line="455" selection-end-column="5" />
           <folding />
         </state>
       </provider>

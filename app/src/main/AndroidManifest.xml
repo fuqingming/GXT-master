@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.jy.jgcjj">
+    package="com.jy.jryjy">
+    <uses-permission android:name="com.example.jpushdemo.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -15,7 +19,6 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -33,7 +36,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH"/>
 
     <application
-        android:name="com.jy.jgcjj.base.BaseApplication"
+        android:name=".base.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -41,7 +44,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:name">
-        <activity android:name="com.jy.jgcjj.GuideActivity">
+        <activity android:name=".GuideActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -49,11 +52,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.jy.jgcjj.MainActivity"
+            android:name=".MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.jy.jgcjj.ChoiceClassActivity"
+            android:name=".ChoiceClassActivity"
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden|screenSize"/>
 
@@ -62,6 +65,12 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".TeacherListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TradeActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".NewsActivity"
@@ -117,7 +126,10 @@
             android:name=".ChangePwdActivity"
             android:screenOrientation="portrait"
             />
-
+        <activity
+            android:name=".LivePlaybackActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
         <activity
             android:name=".ChatLiveActivity"
             android:screenOrientation="portrait"
@@ -153,7 +165,6 @@
             </intent-filter>
         </service>
         <!-- FCM required end -->
-
 
         <!-- mi push -->
         <service
@@ -212,9 +223,18 @@
         <!-- 设置环信应用的appkey -->
         <meta-data
             android:name="EASEMOB_APPKEY"
-            android:value="1120180227146359#xiaoxianhuiios" />
-        <!-- android:value="1120180227146359#xiaoxianhuiios" /> -->
+            android:value="1120180227146359#jinrongyanjiuyuan" />
         <!-- 声明sdk所需的service -->
+        <receiver android:name=".MyReceiver" android:exported="false" android:enabled="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+                <category android:name="com.jy.jryjy" />
+            </intent-filter>
+        </receiver>
         <service
             android:name="com.hyphenate.chat.EMChatService"
             android:exported="true"
@@ -238,6 +258,70 @@
             </intent-filter>
         </receiver>
         <!-- 开机自启动服务huanxin end-->
+
+
+        <!-- mi push -->
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedService" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.hyphenate.chat.EMMipushReceiver"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="10492024" />
+        <receiver android:name="com.hyphenate.chat.EMHWPushReceiver">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+                <action android:name="com.huawei.android.push.intent.CLICK" />
+                <action android:name="com.huawei.intent.action.PUSH_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.hms.support.api.push.PushEventReceiver">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 您从百度网站获取的APP KEY -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="6cacfdf0a7" /> <!-- abcd1234 -->
+        <!--android:value="8f8d7f137c" /> &lt;!&ndash; abcd1234 &ndash;&gt;-->
+        <!-- 渠道商编号 -->
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="Baidu Market" />
+
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="true" />
+        <!-- 日志发送策略，可选值：APP_START、ONCE_A_DAY、SET_TIME_INTERVAL，默认为APP_START -->
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="APP_START" />
+        <!-- 日志发送策略 为SET_TIME_INTERVAL时，需设定时间间隔(取消下行注释)。取值为1-24的整数，默认为1 -->
+        <meta-data android:name="BaiduMobAd_TIME_INTERVAL" android:value="1" />
+        <!-- 日志仅在wifi网络下发送，默认为false --><meta-data    android:name="BaiduMobAd_ONLY_WIFI"    android:value="false" /><!-- 是否获取基站位置信息 ,默认为true --><meta-data    android:name="BaiduMobAd_CELL_LOCATION"    android:value="true" /><!-- 是否获取GPS位置信息，默认为true --><meta-data    android:name="BaiduMobAd_GPS_LOCATION"    android:value="true" /><!-- 是否获取WIFI位置信息，默认为true --><meta-data    android:name="BaiduMobAd_WIFI_LOCATION"    android:value="true" />
     </application>
 
 </manifest>

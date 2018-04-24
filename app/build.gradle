@@ -3,12 +3,24 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.jy.jgcj"
+        applicationId "com.jy.jryjy"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {//推送
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'x86'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+
+        manifestPlaceholders = [//推送
+                JPUSH_PKGNAME : "com.jy.jryjy",
+                JPUSH_APPKEY : "810da4a99c01dd08c386aa46", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+        ]
     }
     buildTypes {
         release {
@@ -57,4 +69,10 @@ dependencies {
     compile 'com.google.firebase:firebase-messaging:11.8.0'//环信
     compile 'com.parse:parse-android:1.13.1'//环信
     compile 'com.jakewharton.rxbinding2:rxbinding:2.0.0'//TextView
+
+    compile 'cn.jiguang.sdk:jpush:3.1.1'
+    // 此处以JPush 3.1.1 版本为例。
+    compile 'cn.jiguang.sdk:jcore:1.1.9'
+    // 此处以JCore 1.1.9 版本为例。
+    compile 'com.baidu.mobstat:mtj-sdk:latest.integration'
 }

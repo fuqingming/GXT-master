@@ -1,8 +1,8 @@
 package com.jgcj.library.cache;
 
-import android.content.Context;
-
 import java.io.File;
+
+import android.content.Context;
 
 /**
  * 管理文件缓存和内存缓存
@@ -12,7 +12,7 @@ import java.io.File;
  */
 public class ImageCacheManager {
 	/** 图片缓存的一级目录，所有图片都在该目录的子目录下 */
-	public static final String CACHE_DIR = "iOrange/XXH/";
+	public static final String CACHE_DIR = "JRYJY/Cache";
 	
 	/** 海报文件缓存目录 */
 	public static final String DIR_PLACARD = "placard";

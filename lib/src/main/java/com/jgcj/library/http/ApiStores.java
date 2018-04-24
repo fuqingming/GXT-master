@@ -49,10 +49,21 @@ public class ApiStores {
 
     /** banner  主页列表 */
     public static final String banner = indexVersion + "banner";
-
+    /** 老师详情 */
+    public static final String getTeacherDetail = indexVersion + "getTeacherDetail";
+    /** 视频列表 */
+    public static final String getClass = indexVersion + "getClass";
+    /** 名师 */
+    public static final String getAllTeacher = indexVersion + "getAllTeacher";
     /** 查询关注状态 */
     public static final String Search_attension = teacherVersion + "Search_attension";
 
     /** 用户的发言 */
     public static final String student_say = chatVersion + "student_say";
+
+    /** banner  主页列表 */
+    public static final String more = indexVersion + "more";
+
+    /** 视频回放 */
+    public static final String getafterClass = indexVersion + "getafterClass";
 }

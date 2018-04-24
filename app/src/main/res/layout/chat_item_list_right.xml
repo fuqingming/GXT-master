@@ -50,7 +50,7 @@
             <!--style="@style/chat_item_avatar"-->
             <!--android:layout_alignParentRight="true"-->
             <!--/>-->
-        <com.jy.xxh.view.ImageViewRound
+        <com.jgcj.library.view.ImageViewRound
             android:id="@+id/chat_item_avatar"
             style="@style/chat_item_avatar"
             android:layout_alignParentRight="true"

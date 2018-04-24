@@ -25,4 +25,5 @@ public class GlobalVariables {
     public final static String serverIsReceiveMessage = "serverIsReceiveMessage";
     public final static String serverWifiPlay = "serverWifiPlay";
     public final static String INTENT_NEWS_SIGN = "intent_news_sign";
+    public final static String serverPlushMsg = "serverPlushMsg";
 }

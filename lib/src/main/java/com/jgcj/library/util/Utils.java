@@ -14,6 +14,7 @@ import android.os.IBinder;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -31,6 +32,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.regex.Matcher;
@@ -696,5 +698,43 @@ public class Utils {
         }
 
         return true;
+    }
+
+    public static Fragment getTopVisibleFragment(FragmentManager fragmentManager)
+    {
+        Fragment fragment = getVisibleFragment(fragmentManager);
+
+        if(fragment != null)
+        {
+            // 检查是否还有子Fragment
+            FragmentManager fm = fragment.getChildFragmentManager();
+            Fragment subFragment = getVisibleFragment(fm);
+            if(subFragment != null)
+            {
+                fragment = subFragment;
+            }
+        }
+
+        return fragment;
+    }
+
+    public static Fragment getVisibleFragment(FragmentManager fragmentManager)
+    {
+        List<Fragment> fragments = fragmentManager.getFragments();
+
+        if(fragments == null)
+        {
+            return null;
+        }
+
+        for (Fragment fragment : fragments)
+        {
+            if (fragment != null && fragment.isVisible())
+            {
+                return fragment;
+            }
+        }
+
+        return null;
     }
 }

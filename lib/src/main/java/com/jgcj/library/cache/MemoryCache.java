@@ -1,11 +1,11 @@
 package com.jgcj.library.cache;
 
-import android.graphics.Bitmap;
-
 import java.lang.ref.SoftReference;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+
+import android.graphics.Bitmap;
 
 /**
  * 实现图片的高速缓存<br>
@@ -17,7 +17,7 @@ import java.util.Map;
 public class MemoryCache {
 	
 	/** 最大的缓存数 */
-	private static final int MAX_CACHE_CAPACITY = 30;
+	private static final int MAX_CACHE_CAPACITY = 300;
 	
 	/**
 	 * 缓存map，当缓存数量超过规定大小，会清除最早放入缓存的

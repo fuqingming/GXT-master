@@ -1,10 +1,9 @@
 package com.jgcj.library.cache;
 
-import android.content.Context;
-
 import java.io.File;
 import java.net.URLEncoder;
 
+import android.content.Context;
 /**
  * 图片文件缓存
  * 

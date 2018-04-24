@@ -1,10 +1,5 @@
 package com.jgcj.library.cache;
 
-import android.app.Activity;
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.widget.ImageView;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,6 +9,10 @@ import java.util.WeakHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.widget.ImageView;
 /**
  * 异步加载图片资源
  * 
@@ -21,10 +20,8 @@ import java.util.concurrent.Executors;
  *
  */
 public class AsyncImageLoader{
-
 	//单例
 	private static AsyncImageLoader mImageLoader = null;
-
 	/** 内存缓存 */
 	private MemoryCache mMemoryCache;
 	/** 文件缓存 */
@@ -66,18 +63,28 @@ public class AsyncImageLoader{
 	 * @param url
 	 * @return 如果缓存里有则直接返回，如果没有则异步从文件或网络端获取
 	 */
-	public Bitmap loadBitmap(ImageView imageView, String url, int mipmap) {
+	public void loadBitmap(ImageView imageView, String url, int mipmap) {
+		imageView.setTag(url);
 		mImageViews.put(imageView, url);
 		Bitmap bitmap = mMemoryCache.get(url);
 		if(bitmap == null) {
 			enquequeLoadPhoto(url, imageView);
 		}
+
 		if(bitmap == null) {
 			imageView.setImageResource(mipmap);
 		} else {
 			imageView.setImageBitmap(bitmap);
 		}
-		return bitmap;
+	}
+
+	public void loadImage(ImageView imageView, String url) {
+		imageView.setTag(url);
+		mImageViews.put(imageView, url);
+		Bitmap bitmap = mMemoryCache.get(url);
+		if(bitmap == null) {
+			enquequeLoadPhoto(url, imageView);
+		}
 	}
 	
 	/**

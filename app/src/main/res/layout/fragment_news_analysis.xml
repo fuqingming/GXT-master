@@ -25,7 +25,7 @@
                 android:visibility="gone"/>
         </FrameLayout>
 
-        <com.jy.jgcjj.view.error.ErrorLayout
+        <com.jy.jryjy.view.error.ErrorLayout
             android:id="@+id/error_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -104,6 +104,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:visibility="gone"
                     >
                     <CheckBox
                         android:id="@+id/cb_class"

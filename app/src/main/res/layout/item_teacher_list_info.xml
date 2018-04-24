@@ -16,8 +16,7 @@
         <ImageView
             android:id="@+id/iv_icon"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:background="@mipmap/gxt_icon"/>
+            android:layout_height="70dp"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

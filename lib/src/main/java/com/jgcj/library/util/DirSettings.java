@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class DirSettings
 {
-	private static final String APP_BASE_DIR = "XXH/"; 		// 在SD卡上存放文件的主目录
+	private static final String APP_BASE_DIR = "JRYJY/"; 		// 在SD卡上存放文件的主目录
 	private static final String APP_CACHE_DIR = "Cache/"; 			// 从服务器下载的图片存放的子目录	
 
 	private DirSettings()

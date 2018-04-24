@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LivePlaybackActivity">
+    <com.xiao.nicevideoplayer.NiceVideoPlayer
+        android:id="@+id/nice_video_player"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_centerVertical="true"/>
+    <RelativeLayout
+        android:id="@+id/ll_play"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/dark"
+        android:layout_centerVertical="true">
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您正在使用非WIFI网络环境观看"
+                android:textSize="@dimen/fifteen"
+                android:textColor="@color/white_color"/>
+            <TextView
+                android:id="@+id/tv_play"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/fourteen"
+                android:background="@drawable/shape_rectangle_btn_white"
+                android:gravity="center"
+                android:text="继续播放"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

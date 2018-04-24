@@ -37,7 +37,7 @@
                 android:layout_height="45dp"
                 android:textSize="@dimen/fifteen"
                 android:textColor="@color/black"
-                android:hint="密码"
+                android:hint="输入6～18位数字字母组合"
                 android:textColorHint="@color/dark"
                 android:background="@color/white_color"
                 android:gravity="center_vertical"
