@@ -54,7 +54,7 @@ public class ApiStores {
     /** 视频列表 */
     public static final String getClass = indexVersion + "getClass";
     /** 名师 */
-    public static final String getAllTeacher = indexVersion + "getAllTeacher";
+    public static final String getTeacher = indexVersion + "getTeacher";
     /** 查询关注状态 */
     public static final String Search_attension = teacherVersion + "Search_attension";
 

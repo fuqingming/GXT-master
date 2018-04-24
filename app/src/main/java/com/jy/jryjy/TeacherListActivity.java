@@ -39,7 +39,7 @@ public class TeacherListActivity extends BaseListActivity<LiveBean> {
     @Override
     protected void initLayoutManager() {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        mRecyclerView.setLoadMoreEnabled(true);
+        mRecyclerView.setLoadMoreEnabled(false);
         mRecyclerView.setOnRefreshListener(new OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -63,7 +63,7 @@ public class TeacherListActivity extends BaseListActivity<LiveBean> {
     }
     protected void requestData(){
 
-        HttpClient.get(ApiStores.getAllTeacher, new HttpCallback<ResponseLiveBean>() {
+        HttpClient.get(ApiStores.getClass+"?type=3", new HttpCallback<ResponseLiveBean>() {
             @Override
             public void OnSuccess(ResponseLiveBean response) {
                 if(response.getResult()){

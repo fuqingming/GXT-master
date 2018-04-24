@@ -345,7 +345,7 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
     }
 
     protected void requestData(){
-        HttpClient.get(ApiStores.more+"?cate_id=1&"+m_strUrl, new HttpCallback<ResponseNewsAnalysisBean>() {//ResponseHallBean
+        HttpClient.get(ApiStores.more+"?cate_id=1&"+m_strUrl+"&page="+mCurrentPage, new HttpCallback<ResponseNewsAnalysisBean>() {//ResponseHallBean
             @Override
             public void OnSuccess(ResponseNewsAnalysisBean response) {
 				if(response.getResult()){
@@ -360,7 +360,7 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
 					initBanner();
 
                     List<TeacherAnalysisBean> responseFragmentHallBeen = new ArrayList<>();
-                    responseFragmentHallBeen.addAll(response.getContent().getJuemi());
+                    responseFragmentHallBeen.addAll(response.getContent().getJuemi().getData());
                     executeOnLoadDataSuccess(responseFragmentHallBeen);
                     totalPage = responseFragmentHallBeen.size();
                     boolean isHas = false;

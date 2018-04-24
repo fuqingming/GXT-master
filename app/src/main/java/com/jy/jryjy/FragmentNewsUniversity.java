@@ -84,12 +84,12 @@ public class FragmentNewsUniversity extends BaseListFragment<TeacherAnalysisBean
     }
 
     protected void requestData(){
-        HttpClient.get(ApiStores.more+"?cate_id=4", new HttpCallback<ResponseNewsAnalysisBean>() {//ResponseHallBean
+        HttpClient.get(ApiStores.more+"?cate_id=4&page="+mCurrentPage, new HttpCallback<ResponseNewsAnalysisBean>() {//ResponseHallBean
             @Override
             public void OnSuccess(ResponseNewsAnalysisBean response) {
                 if(response.getResult()){
                     List<TeacherAnalysisBean> responseFragmentHallBeen = new ArrayList<>();
-                    responseFragmentHallBeen.addAll(response.getContent().getJuemi());
+                    responseFragmentHallBeen.addAll(response.getContent().getJuemi().getData());
                     executeOnLoadDataSuccess(responseFragmentHallBeen);
                     totalPage = responseFragmentHallBeen.size();
                 }

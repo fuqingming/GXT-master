@@ -22,14 +22,14 @@ public class ResponseNewsAnalysisBean extends ResponseBaseBean {
     }
 
     public class Content{
-        private List<TeacherAnalysisBean> juemi = new ArrayList<>();
-        private List<TeacherAnalysisBean> banner = new ArrayList<>();
+        private Juemi juemi;
+        private List<TeacherAnalysisBean> banner;
 
-        public List<TeacherAnalysisBean> getJuemi() {
+        public Juemi getJuemi() {
             return juemi;
         }
 
-        public void setJuemi(List<TeacherAnalysisBean> juemi) {
+        public void setJuemi(Juemi juemi) {
             this.juemi = juemi;
         }
 
@@ -40,5 +40,20 @@ public class ResponseNewsAnalysisBean extends ResponseBaseBean {
         public void setBanner(List<TeacherAnalysisBean> banner) {
             this.banner = banner;
         }
+    }
+
+    public class Juemi{
+        private List<TeacherAnalysisBean> data;
+
+
+        public List<TeacherAnalysisBean> getData() {
+            return data;
+        }
+
+        public void setData(List<TeacherAnalysisBean> data) {
+            this.data = data;
+        }
+
+
     }
 }
