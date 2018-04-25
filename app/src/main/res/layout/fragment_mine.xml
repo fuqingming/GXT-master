@@ -92,7 +92,7 @@
             android:layout_weight="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/my_message"
+            android:background="@mipmap/set_icon"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"/>
@@ -130,7 +130,7 @@
             android:layout_weight="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/my_message"
+            android:background="@mipmap/my_cus"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"/>
@@ -167,7 +167,7 @@
             android:layout_weight="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/my_message"
+            android:background="@mipmap/yijianfankui"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"/>

@@ -64,6 +64,7 @@ public class ResponseTeacherDetailsBean extends ResponseBaseBean {
         private String t_type;
         private String r_room_id;
         private String r_type;
+        private String c_photo;
 
         public String getM_id() {
             return m_id;
@@ -207,6 +208,14 @@ public class ResponseTeacherDetailsBean extends ResponseBaseBean {
 
         public void setR_type(String r_type) {
             this.r_type = r_type;
+        }
+
+        public String getC_photo() {
+            return c_photo;
+        }
+
+        public void setC_photo(String c_photo) {
+            this.c_photo = c_photo;
         }
     }
 }

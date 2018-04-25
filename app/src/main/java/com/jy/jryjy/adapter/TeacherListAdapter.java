@@ -11,6 +11,7 @@ import com.bumptech.glide.Glide;
 import com.jy.jryjy.R;
 import com.jy.jryjy.TeacherListDetailsActivity;
 import com.jy.jryjy.bean.base.LiveBean;
+import com.jy.jryjy.bean.base.TeacherListBean;
 import com.jy.jryjy.view.recyclerview.BaseRecyclerViewHolder;
 
 import butterknife.BindView;
@@ -21,7 +22,7 @@ import butterknife.ButterKnife;
  * Date: 2017/11/13
  */
 
-public class TeacherListAdapter extends BaseRecyclerAdapter<LiveBean> {
+public class TeacherListAdapter extends BaseRecyclerAdapter<TeacherListBean> {
 
     @BindView(R.id.iv_icon)
     ImageView m_ivIcon;
@@ -45,19 +46,18 @@ public class TeacherListAdapter extends BaseRecyclerAdapter<LiveBean> {
     }
 
     @Override
-    protected void covert(BaseRecyclerViewHolder holder,final LiveBean data, int position) {
+    protected void covert(BaseRecyclerViewHolder holder,final TeacherListBean data, int position) {
         ButterKnife.bind(this, holder.getView());
         Glide.with(mContext).load(data.getT_photo()).placeholder(R.mipmap.head_s).into(m_ivIcon);
         m_tvName.setText(data.getT_nic_name());
 //        m_tvClassCount.setText(data.getClassCount());
 //        m_tvPersons.setText(data.getPersons());
-        m_tvText.setText(data.getM_content());
+//        m_tvText.setText(data.getM_content());
         m_llItemClick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent it = new Intent(mContext, TeacherListDetailsActivity.class);
-                String id = data.getM_t_id();
-                it.putExtra("strTID",data.getM_t_id());
+                it.putExtra("strTID",data.getT_id());
                 mContext.startActivity(it);
             }
         });

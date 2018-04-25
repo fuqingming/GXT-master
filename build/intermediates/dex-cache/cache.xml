@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.8.0\f765f004f3e201bd6ad0904266e605d7fb776d5\logging-interceptor-3.8.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0f765f004f3e201bd6ad0904266e605d7fb776d5">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\exifinterface-26.1.0.aar\1c7cd3602487817c693f6afc61607533\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1a10332e561dbad9fd003560979e6202383d0d2c">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\jcore-1.1.9.aar\803176a21110d8b8c85e23e80ff9bbf5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="039cf65eff59b194310065e250b8da91ff20d27c">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\437d3e6d3196e3dabeb4bcd5d53c8008\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c44026185adf61f12630db36ac6781481f559e7c">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\7076cab6dcfd212a83394c43d3104a34\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="264ad23f9752aabecfa41115c52a25a023a08839">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\1b990d80d781f06b124765e66ade57d4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\52a98f42c9cf1b5337a143feb5f4ad81\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\jpush-3.1.1.aar\868a6cd0150947aa99f09b58b67a176d\jars\libs\jpush-android-3.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="522a545a8efd94034ec07044563fb9da49a3aa2a">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\app\libs\KJFrameForAndroid_v2.234.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1a252f63e6e692c8ec85408c9bc75742c3c31b2e">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\utilcode-1.9.0.aar\4f3dba3df081e1fdc4161a6793c930bc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3c354f878ab34215a1e556c3921cf956f55c4239">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\easeui\libs\MiPush_SDK_Client_2_2_19.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="01298c1280e97b7367a55252f66a8f19fd494d35">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\90d6f31adf22d46159a9ac0e93014231\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\cd7b8fe16bff4ea9a5740e48095e8e50\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\42b7f8d579efd33e220204bd421b9179\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\d53e648b877f15c3cfac8a9b4edcd2cc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1c6d36281ce1c28ebeb58155c3ceac425dcec5e2">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6372b5204e6b79d053c6f9cbda6968ba\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\easeui\libs\HMSSdkBase_2.5.1.300.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5bf60125784c391dd94ca6458fb8731ee5aeaf6d">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\43dd3cb12a1ffac5ec7ec33c40734cc8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\1faa8ed7ce16c013d1e5852f77702617\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\d2241fd55f80dfb329d4b72b3f51f54d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e6aeff19a2ce1eb896557be73cb9ceb56f8d1cf3">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bf1c00f8656836d4ff5bf0848248f165\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\ijkplayer-x86-0.8.3.aar\d9b4ab8a15252d57b83d0752df371eec\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3809b41896b3a1dea1d5205e86364e42609bbd5">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\nicevideoplayer\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a098c5045ce031ee251e1b178b39d936bdf06caa">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\dd9eaafa0a3140eea768f2ac24d24fe0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\easeui\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="74ea27780e60218dd8275e57cb89da046af9a1bb">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c44f4d68714aae2079fd6c3a57814c42\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4b8ed45b4544ea591e00baf255c2542a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.2.3.aar\90c3ef2a99b365723c02b97c8bdf725f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8e325e9ba5c23d635d0cfaa76c349fca83101f8a">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\easeui\libs\HMSSdkPush_2.5.1.300.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b8b1131bc2f2defb8713ecff3327c591759f8bf4">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0829b4c865b7a44c871711f93ad3aa99\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\76adfefbb41b1ef3791e2cf1e82ab5e7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.baidu.mobstat\mtj-sdk\3.8.2.1\ccb4bc1fd3ddcac2f4c2c6676621d356eff0cd8\mtj-sdk-3.8.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0ccb4bc1fd3ddcac2f4c2c6676621d356eff0cd8">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\2e2f04cf41f8289687ce2f8ed184e68c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da8b8f3f1fed75b39f0b9228bea5512f10bfff6f">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\0ce065ff9acaa75daac350d24141fc4e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\ijkplayer-armv7a-0.8.3.aar\dedee0443f795d9e62f636a321e0dc15\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bbfd38c2ee1b939d1b470cf409debe6ac1b19800">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\app\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\ijkplayer-java-0.8.3.aar\e87a240e46bbfb05cfaa4d198d2b26e5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="69253a57e2371f2889f0528f854efeb88c0978e7">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\easeui\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="edad748f7bdee111c6a4ee5d8b072a74df0f1f4e">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\2929bea2e4ad4c1220b3fb557a14e8ab\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9644834bb403cfd73f5695b908a933c1ff236217">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\LRecyclerView-1.3.8.aar\168363dd899fde5a658322fbb9fa4e99\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ac45043a480cb1ee4a3a78a8592a539bffce20b2">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\novate-1.5.4.5.aar\1e6a8e47ce8d833d7d871dc84d057b1c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8c6d72f73e7338ba2cfc774303592429f8c4871a">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\library-1.1.2.aar\2f5909da7efb97970b9b195aeb97c13c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c88c812a88365a89d9b951682e235005eb0b28bb">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\lib\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e0fd30c3f36e7948a771a30e0fe465aba23aaef8">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\ijkplayer-armv5-0.8.3.aar\4036ca35fa34ba144594c96ff87a5493\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="66c795a8c2d4b5be018a93a147ef1e7e26d7a4b6">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\ucrop-2.2.0.aar\5724b5f2098e115999343301a2f406dc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="515960f41b2032bbff45af39c0c9628db4956d3e">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.1.0.aar\17691a5325e4f72992087f8ced07c0b2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="91b50fcd97834f47480a943bcc0468a37372211a">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\1c76ff4d1c9ebde458b23243def9c8e5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="eb305d2ec1f85a4122c5e9d0412c87e20dac20f8">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\a2d05db387780ee5e3ff2208fa3d414d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\jcore-1.1.9.aar\803176a21110d8b8c85e23e80ff9bbf5\jars\libs\jcore-android-1.1.9.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fb25a33330920a0b0166fbd067a1879396cddaef">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\BannerPager-0.1.0.aar\5781579ae242b0e7d96d8f7ffcdb3e46\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8a299502dc37e4c7f8563979944509f4a22384ab">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\library\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3a7a4dbe911020794fef3a9fab4ef9d3f59780f2">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\249dbcd5ef8c752724229ae43ce532fd\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.3.0\43e4ac24adc40a24c51b2d2a71a2483ef1b0ce9a\adapter-rxjava-2.3.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43e4ac24adc40a24c51b2d2a71a2483ef1b0ce9a">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.0\2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1\rxjava-2.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\fa27b0b0339237c52971da203b51b847\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.1\5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a\parse-android-1.13.1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\easeui\libs\hyphenatechat_3.3.9.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9bb03f18baee5c89fc294ec523a9bdfaf94ea72">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\d2efa5724f7ac37a7228696040a6b7a3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8bf2709be142a2d0784d5e548842026dc28079dc">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\06aa4e7277aafb610e72541641129a02\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\app\libs\pldroid-player-2.1.2.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e684ea5ec055534fbe5a34521d95050262ea9e8">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\GXT-master\GXT-master\easeui\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fb7023e781abb70ed1b0442eb611fbed295cae84">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.3.0\af000bec2036a2a9d07197c4b03b8966bfc60b03\rxjava-1.3.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="af000bec2036a2a9d07197c4b03b8966bfc60b03">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\jpush-3.1.1.aar\868a6cd0150947aa99f09b58b67a176d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14e06a09a42688a25186e7abda5dd4836066502a">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\23ba67d2ea6ae9a58e212b2ab5f112fb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\80c6e76afab1fc31a5c0aac807183a7d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\f1b79640695f8def9185c534a5b3f3ae\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9602d1e79216cd0e61d22fad40caee64365f29ac">
+        <dex dex="D:\workspace\GXT-master\GXT-master\app\build\intermediates\transforms\preDex\release\60.jar" />
+    </item>
+
+</items>

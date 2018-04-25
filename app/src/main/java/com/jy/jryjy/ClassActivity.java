@@ -38,6 +38,7 @@ import com.jy.jryjy.bean.base.TeacherDetailsBean;
 import com.jy.jryjy.bean.response.ResponseBaseBean;
 import com.jy.jryjy.bean.response.ResponseClassBean;
 import com.jy.jryjy.util.DataUtil;
+import com.jy.jryjy.view.error.ErrorLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -78,7 +79,7 @@ public class ClassActivity extends BasePopListActivity<ClassBean> {
 
     @Override
     protected void initData() {
-        Utils.initCommonTitle(this, "课程",true);
+        Utils.initCommonTitle(this, "直播回放",true);
         m_bannerBean = new ArrayList<>();
         m_arrBanner = new ArrayList<>();
     }
@@ -230,7 +231,7 @@ public class ClassActivity extends BasePopListActivity<ClassBean> {
             @Override
             public void onItemClick(View view, int position) {
                 Intent it = new Intent(ClassActivity.this, LivePlaybackActivity.class);
-                it.putExtra("strPlayUrl",teacherListDetailsAdapter.getListData().get(position).getM_url());
+                it.putExtra("strPlayUrl",teacherListDetailsAdapter.getListData().get(position).getVideo_url());
                 startActivity(it);
             }
 
@@ -271,6 +272,12 @@ public class ClassActivity extends BasePopListActivity<ClassBean> {
 //                    intent.setData(content_url);
 //                    startActivity(intent);
 //                }
+                if(m_bannerBean.get(position).getB_turn_link() != null && !"".equals(m_bannerBean.get(position).getB_turn_link())){
+                    Intent it = new Intent(ClassActivity.this, LivePlaybackActivity.class);
+                    it.putExtra("strPlayUrl",m_bannerBean.get(position).getB_turn_link());
+                    startActivity(it);
+                }
+
             }
         });
     }
@@ -326,7 +333,15 @@ public class ClassActivity extends BasePopListActivity<ClassBean> {
 
                     List<ClassBean> videoPlayBackBeans = new ArrayList<>();
                     videoPlayBackBeans.addAll(response.getContent().getTrailer_after());
-                    executeOnLoadDataSuccess(videoPlayBackBeans);
+                    if(videoPlayBackBeans.size() > 0){
+                        executeOnLoadDataSuccess(videoPlayBackBeans);
+                    }else{
+                        if(m_arrBanner.size() > 0){
+                            mErrorLayout.setErrorType(ErrorLayout.HIDE_LAYOUT);
+                        }else{
+                            executeOnLoadDataSuccess(videoPlayBackBeans);
+                        }
+                    }
                     totalPage = videoPlayBackBeans.size();
                     executeOnLoadFinish();
 				}

@@ -9,57 +9,85 @@ import java.io.Serializable;
  */
 
 public class TeacherListBean implements Serializable {
-    private int icon;
-    private String name;
-    private String classCount;
-    private String persons;
-    private String text;
+    private String t_id;
+    private String t_name;
+    private String t_nic_name;
+    private String t_pwd;
+    private String t_room;
+    private String t_photo;
+    private String t_brief;
+    private String t_strategy;
+    private String t_type;
 
-    public TeacherListBean(int icon, String name, String classCount, String persons, String text) {
-        this.icon = icon;
-        this.name = name;
-        this.classCount = classCount;
-        this.persons = persons;
-        this.text = text;
+    public String getT_id() {
+        return t_id;
     }
 
-    public int getIcon() {
-        return icon;
+    public void setT_id(String t_id) {
+        this.t_id = t_id;
     }
 
-    public void setIcon(int icon) {
-        this.icon = icon;
+    public String getT_name() {
+        return t_name;
     }
 
-    public String getName() {
-        return name;
+    public void setT_name(String t_name) {
+        this.t_name = t_name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getT_nic_name() {
+        return t_nic_name;
     }
 
-    public String getClassCount() {
-        return classCount;
+    public void setT_nic_name(String t_nic_name) {
+        this.t_nic_name = t_nic_name;
     }
 
-    public void setClassCount(String classCount) {
-        this.classCount = classCount;
+    public String getT_pwd() {
+        return t_pwd;
     }
 
-    public String getPersons() {
-        return persons;
+    public void setT_pwd(String t_pwd) {
+        this.t_pwd = t_pwd;
     }
 
-    public void setPersons(String persons) {
-        this.persons = persons;
+    public String getT_room() {
+        return t_room;
     }
 
-    public String getText() {
-        return text;
+    public void setT_room(String t_room) {
+        this.t_room = t_room;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public String getT_photo() {
+        return t_photo;
+    }
+
+    public void setT_photo(String t_photo) {
+        this.t_photo = t_photo;
+    }
+
+    public String getT_brief() {
+        return t_brief;
+    }
+
+    public void setT_brief(String t_brief) {
+        this.t_brief = t_brief;
+    }
+
+    public String getT_strategy() {
+        return t_strategy;
+    }
+
+    public void setT_strategy(String t_strategy) {
+        this.t_strategy = t_strategy;
+    }
+
+    public String getT_type() {
+        return t_type;
+    }
+
+    public void setT_type(String t_type) {
+        this.t_type = t_type;
     }
 }

@@ -1,6 +1,7 @@
 package com.jy.jryjy;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -79,7 +80,9 @@ public class TeacherListDetailsActivity extends BaseListActivity<ResponseTeacher
         mRecyclerViewAdapter.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
-
+                Intent it = new Intent(TeacherListDetailsActivity.this, LivePlaybackActivity.class);
+                it.putExtra("strPlayUrl",teacherListDetailsAdapter.getListData().get(position).getVideo_url());
+                startActivity(it);
             }
 
         });

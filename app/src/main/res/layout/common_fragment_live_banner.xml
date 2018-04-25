@@ -7,11 +7,10 @@
     android:background="@color/app_backgrount_color"
     >
 
-    <com.joker.pager.BannerPager
+    <ImageView
         android:id="@+id/banner_pager"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/white_color"
+        android:layout_height="wrap_content"
         />
 
     <RelativeLayout

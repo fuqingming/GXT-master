@@ -14,6 +14,6 @@ public class Const {
     public class Phone
     {
         public static final String CUSTOMER_SERVICE_PHONE = "400-888-213";	// 客服
-        public static final String CUSTOMER_SERVICE_PHONE_PLAY = "400888213";	// 客服
+        public static final String CUSTOMER_SERVICE_PHONE_PLAY = "4008657633";	// 客服
     }
 }

@@ -20,7 +20,9 @@ public class ClassBean implements Serializable {
     private String r_people;
     private String r_icon;
     private String r_room_id;
+    private String c_photo;
     private String r_room_breif;
+    private String video_url;
 
     public String getM_id() {
         return m_id;
@@ -156,6 +158,22 @@ public class ClassBean implements Serializable {
 
     public void setR_room_breif(String r_room_breif) {
         this.r_room_breif = r_room_breif;
+    }
+
+    public String getC_photo() {
+        return c_photo;
+    }
+
+    public void setC_photo(String c_photo) {
+        this.c_photo = c_photo;
+    }
+
+    public String getVideo_url() {
+        return video_url;
+    }
+
+    public void setVideo_url(String video_url) {
+        this.video_url = video_url;
     }
 }
 

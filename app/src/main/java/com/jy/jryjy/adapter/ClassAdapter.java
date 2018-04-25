@@ -44,7 +44,7 @@ public class ClassAdapter extends BaseRecyclerAdapter<ClassBean> {
     @Override
     protected void covert(BaseRecyclerViewHolder holder,ClassBean data, int position) {
         ButterKnife.bind(this, holder.getView());
-        Glide.with(mContext).load(data.getT_photo()).placeholder(R.mipmap.head_s).into(m_ivPic);
+        Glide.with(mContext).load(data.getC_photo()).placeholder(R.mipmap.head_s).into(m_ivPic);
         m_ivName.setText(data.getT_nic_name());
         m_ivTime.setText(data.getM_time());
         m_ivTitle.setText(data.getM_title());

@@ -36,7 +36,7 @@ public abstract class BaseListFragment<T> extends Fragment {
     protected LayoutInflater mInflater;
     private Context mContext;
     protected LRecyclerView mRecyclerView;
-    ErrorLayout mErrorLayout;
+    protected ErrorLayout mErrorLayout;
     protected Button toTopBtn;
 
     protected BaseRecyclerAdapter<T> mListAdapter;

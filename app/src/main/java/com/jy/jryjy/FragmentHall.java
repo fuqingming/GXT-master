@@ -5,18 +5,24 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.LinearLayoutManager;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.baidu.mobstat.StatService;
+import com.blankj.utilcode.util.SPUtils;
 import com.bumptech.glide.Glide;
 import com.github.jdsjlzx.interfaces.OnLoadMoreListener;
 import com.github.jdsjlzx.interfaces.OnRefreshListener;
+import com.jgcj.library.cache.AsyncImageLoader;
+import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
@@ -65,6 +71,12 @@ public class FragmentHall extends BaseListFragment<ResponseHallBean> {
 
 	private ViewPager m_vPager;
 	private int m_iViewTotalPage;
+
+	private ImageView m_ivMore;
+	private TextView m_tvMore;
+	private LinearLayout m_llMore;
+
+	private String m_strMoreUrl;
 
 	@Override
 	protected int getLayoutId() {
@@ -184,6 +196,27 @@ public class FragmentHall extends BaseListFragment<ResponseHallBean> {
 		mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 		mRecyclerView.setLoadMoreEnabled(false);
 		View header = LayoutInflater.from(getMContext()).inflate(R.layout.common_fragment_hall_banner,mRecyclerView, false);
+		m_ivMore = header.findViewById(R.id.iv_image_more);
+		m_tvMore = header.findViewById(R.id.tv_name_more);
+
+		m_llMore = header.findViewById(R.id.ll_more);
+		WindowManager manager = getActivity().getWindowManager();
+		DisplayMetrics outMetrics = new DisplayMetrics();
+		manager.getDefaultDisplay().getMetrics(outMetrics);
+		int width = outMetrics.widthPixels;
+
+		LinearLayout.LayoutParams params= (LinearLayout.LayoutParams) m_llMore.getLayoutParams();
+		params.width=width/4;//设置当前控件布局的高度
+		m_llMore.setLayoutParams(params);//将设置好的布局参数应用到控件中
+		m_llMore.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent it = new Intent(getMContext(),NewsWebViewActivity.class);
+				it.putExtra("webViewUrl",m_strMoreUrl);
+				startActivity(it);
+			}
+		});
+
 		m_bpBanner = header.findViewById(R.id.banner_pager);
 		m_viewPager = header.findViewById(R.id.viewpager);
 		m_vPager = header.findViewById(R.id.view_pager);
@@ -311,6 +344,16 @@ public class FragmentHall extends BaseListFragment<ResponseHallBean> {
 						m_arrBanner.add(m_bannerBean.get(i).getB_link());
 					}
 					initBanner();
+
+					if(response.getContent().getIndex_icon().size() > 0){
+						Glide.with(getMContext()).load( response.getContent().getIndex_icon().get(0).getI_img()).placeholder(R.mipmap.station_pic).into(m_ivMore);
+						m_tvMore.setText(response.getContent().getIndex_icon().get(0).getI_title());
+						m_strMoreUrl = response.getContent().getIndex_icon().get(0).getI_url();
+						m_llMore.setVisibility(View.VISIBLE);
+					}else{
+						m_strMoreUrl = "";
+						m_llMore.setVisibility(View.INVISIBLE);
+					}
 
 					List<ResponseHallBean> responseFragmentHallBeen = new ArrayList<>();
 					responseFragmentHallBeen.add(response);

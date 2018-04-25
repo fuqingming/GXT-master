@@ -19,6 +19,7 @@ import com.jgcj.library.backhandler.OnBackPressedInterface;
 import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
+import com.jgcj.library.util.Utils;
 import com.jy.jryjy.base.BaseFragment;
 import com.jy.jryjy.bean.response.ResponseHallBean;
 
@@ -57,6 +58,7 @@ public class FragmentTrade extends BaseFragment  implements OnBackPressedInterfa
 
 	@Override
 	protected void setUpView() {
+		Utils.initCommonTitle(getContentView(),"交易");
 		m_viewWeb.loadUrl("http://gxt.mqcll.cn/index/User/transaction");//加载url
 //		m_viewWeb.loadUrl("https://www.baidu.com/");
 		m_viewWeb.addJavascriptInterface(this,"android");//添加js监听 这样html就能调用客户端

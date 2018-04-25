@@ -31,6 +31,7 @@ import com.jy.jryjy.adapter.VideoTypeCheckedAdapter;
 import com.jy.jryjy.base.BasePopListFragment;
 import com.jy.jryjy.bean.base.TeacherAnalysisBean;
 import com.jy.jryjy.bean.response.ResponseNewsAnalysisBean;
+import com.jy.jryjy.view.error.ErrorLayout;
 import com.jy.jryjy.view.recyclerview.RecycleViewDivider;
 
 import java.util.ArrayList;
@@ -300,12 +301,10 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
         m_bpBanner.setOnItemClickListener(new com.joker.pager.listener.OnItemClickListener() {
             @Override
             public void onItemClick(int location, int position) {
-                if(m_bannerBean.get(position).getN_photo() != null && !"".equals(m_bannerBean.get(position).getN_photo())){
-//                    Intent intent = new Intent();
-//                    intent.setAction("android.intent.action.VIEW");
-//                    Uri content_url = Uri.parse(m_bannerBean.get(position).getN_photo());
-//                    intent.setData(content_url);
-//                    startActivity(intent);
+                if(m_bannerBean.get(position).getDetail_url() != null && !"".equals(m_bannerBean.get(position).getDetail_url())){
+                    Intent it = new Intent(getMContext(),NewsWebViewActivity.class);
+                    it.putExtra("webViewUrl",m_bannerBean.get(position).getDetail_url());
+                    startActivity(it);
                 }
             }
         });
@@ -361,6 +360,15 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
 
                     List<TeacherAnalysisBean> responseFragmentHallBeen = new ArrayList<>();
                     responseFragmentHallBeen.addAll(response.getContent().getJuemi().getData());
+                    if(responseFragmentHallBeen.size() > 0){
+                        executeOnLoadDataSuccess(responseFragmentHallBeen);
+                    }else{
+                        if(m_arrBanner.size() > 0){
+                            mErrorLayout.setErrorType(ErrorLayout.HIDE_LAYOUT);
+                        }else{
+                            executeOnLoadDataSuccess(responseFragmentHallBeen);
+                        }
+                    }
                     executeOnLoadDataSuccess(responseFragmentHallBeen);
                     totalPage = responseFragmentHallBeen.size();
                     boolean isHas = false;

@@ -10,9 +10,12 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.baidu.mobstat.StatService;
+import com.blankj.utilcode.util.SPUtils;
 import com.bumptech.glide.Glide;
 import com.github.jdsjlzx.interfaces.OnLoadMoreListener;
 import com.github.jdsjlzx.interfaces.OnRefreshListener;
+import com.jgcj.library.cache.AsyncImageLoader;
+import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
@@ -28,6 +31,7 @@ import com.jy.jryjy.base.BaseListFragment;
 import com.jy.jryjy.bean.base.BannerBean;
 import com.jy.jryjy.bean.base.LiveBean;
 import com.jy.jryjy.bean.response.ResponseLiveBean;
+import com.jy.jryjy.view.error.ErrorLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,9 +43,7 @@ import java.util.List;
 public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 
 	private LiveAdapter m_fragmentTrainAdapter= new LiveAdapter();
-	private BannerPager m_bpBanner;
-	private List<BannerBean> m_bannerBean;
-	private ArrayList<String> m_arrBanner;
+	private ImageView m_bpBanner;
 
 //	private CheckBox m_cbTop1;
 //	private CheckBox m_cbTop2;
@@ -200,8 +202,7 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 	@Override
 	public void initData() {
 		super.initData();
-		m_bannerBean = new ArrayList<>();
-		m_arrBanner = new ArrayList<>();
+
 //		m_arrLiveBean = DataUtil.initLiveBean();
 //		m_arrDate = TimeUtils.findThisWeekDates();
 //		m_cbListTop = new ArrayList<>();
@@ -292,61 +293,11 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 //		view.setVisibility(View.VISIBLE);
 //	}
 
-	private void initBanner() {
 
-		final PagerOptions pagerOptions = new PagerOptions.Builder(getMContext())
-				.setTurnDuration(2000)
-				.setIndicatorSize(Utils.dp2px(getMContext(),6))
-				.setIndicatorColor(getMContext().getResources().getColor(R.color.dark),getMContext().getResources().getColor(R.color.red) )
-				.setIndicatorAlign(RelativeLayout.CENTER_HORIZONTAL)
-				.setIndicatorMarginBottom(15)
-				.build();
-
-		m_bpBanner.setPagerOptions(pagerOptions).setPages(m_arrBanner, new ViewHolderCreator<BannerPagerHolder>() {
-			@Override
-			public BannerPagerHolder createViewHolder() {
-				final View view = LayoutInflater.from(getMContext()).inflate(R.layout.item_image_banner_live, null);
-				return new BannerPagerHolder(view);
-			}
-		});
-		m_bpBanner.startTurning();
-		m_bpBanner.setOnItemClickListener(new com.joker.pager.listener.OnItemClickListener() {
-			@Override
-			public void onItemClick(int location, int position) {
-				if(m_bannerBean.get(position).getB_turn_link() != null && !"".equals(m_bannerBean.get(position).getB_turn_link())){
-					Intent intent = new Intent();
-					intent.setAction("android.intent.action.VIEW");
-					Uri content_url = Uri.parse(m_bannerBean.get(position).getB_turn_link());
-					intent.setData(content_url);
-					startActivity(intent);
-				}
-			}
-		});
-	}
-
-	private class BannerPagerHolder extends ViewHolder<String> {
-
-		private ImageView mImage;
-
-		private BannerPagerHolder(View itemView) {
-			super(itemView);
-			mImage = itemView.findViewById(R.id.image);
-		}
-
-		@Override
-		public void onBindView(View view, String data, int position) {
-			Glide.with(mImage.getContext())
-					.load(data)
-					.into(mImage);
-		}
-	}
 
 	@Override
 	public void onResume() {
 		super.onResume();
-		if(m_bpBanner!=null){
-			m_bpBanner.startTurning();
-		}
 		StatService.onPageStart(getMContext(), "主界面");
 	}
 
@@ -360,9 +311,6 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 	@Override
 	public void onStop() {
 		super.onStop();
-		if(m_bpBanner!=null){
-			m_bpBanner.stopTurning();
-		}
 	}
 
 	protected void requestData(){
@@ -371,19 +319,21 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 			@Override
 			public void OnSuccess(ResponseLiveBean response) {
 				if(response.getResult()){
-					if(m_bannerBean.size() > 0 ){
-						m_bannerBean.clear();
-						m_arrBanner.clear();
+					if(response.getContent().getBanner().size()>0){
+						Glide.with(getMContext()).load(response.getContent().getBanner().get(0).getB_turn_link()).placeholder(R.mipmap.station_pic).into(m_bpBanner);
 					}
-					m_bannerBean.addAll(response.getContent().getBanner());
-					for(int i = 0 ; i < m_bannerBean.size() ; i ++){
-						m_arrBanner.add(m_bannerBean.get(i).getB_link());
-					}
-					initBanner();
 
 					List<LiveBean> responseFragmentHallBeen = new ArrayList<>();
 					responseFragmentHallBeen.addAll(response.getContent().getTrailer_info());
-					executeOnLoadDataSuccess(responseFragmentHallBeen);
+					if(responseFragmentHallBeen.size() > 0){
+						executeOnLoadDataSuccess(responseFragmentHallBeen);
+					}else{
+						if(response.getContent().getBanner().size() > 0){
+							mErrorLayout.setErrorType(ErrorLayout.HIDE_LAYOUT);
+						}else{
+							executeOnLoadDataSuccess(responseFragmentHallBeen);
+						}
+					}
 					totalPage = responseFragmentHallBeen.size();
 					executeOnLoadFinish();
 				}

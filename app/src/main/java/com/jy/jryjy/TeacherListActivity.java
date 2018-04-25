@@ -12,12 +12,14 @@ import com.jy.jryjy.adapter.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.TeacherListAdapter;
 import com.jy.jryjy.base.BaseListActivity;
 import com.jy.jryjy.bean.base.LiveBean;
+import com.jy.jryjy.bean.base.TeacherListBean;
 import com.jy.jryjy.bean.response.ResponseLiveBean;
+import com.jy.jryjy.bean.response.ResponseTeacherListBean;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TeacherListActivity extends BaseListActivity<LiveBean> {
+public class TeacherListActivity extends BaseListActivity<TeacherListBean> {
 
     private TeacherListAdapter m_adapterTeacherList = new TeacherListAdapter();
 
@@ -32,7 +34,7 @@ public class TeacherListActivity extends BaseListActivity<LiveBean> {
     }
 
     @Override
-    protected BaseRecyclerAdapter<LiveBean> getListAdapter() {
+    protected BaseRecyclerAdapter<TeacherListBean> getListAdapter() {
         return m_adapterTeacherList;
     }
 
@@ -63,12 +65,12 @@ public class TeacherListActivity extends BaseListActivity<LiveBean> {
     }
     protected void requestData(){
 
-        HttpClient.get(ApiStores.getClass+"?type=3", new HttpCallback<ResponseLiveBean>() {
+        HttpClient.get(ApiStores.getTeacher, new HttpCallback<ResponseTeacherListBean>() {
             @Override
-            public void OnSuccess(ResponseLiveBean response) {
+            public void OnSuccess(ResponseTeacherListBean response) {
                 if(response.getResult()){
-                    List<LiveBean> arrClassOpenBean = new ArrayList<>();
-                    arrClassOpenBean.addAll(response.getContent().getTrailer_info());
+                    List<TeacherListBean> arrClassOpenBean = new ArrayList<>();
+                    arrClassOpenBean.addAll(response.getContent().getData());
                     executeOnLoadDataSuccess(arrClassOpenBean);
                     totalPage = arrClassOpenBean.size();
                     executeOnLoadFinish();

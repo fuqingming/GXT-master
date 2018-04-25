@@ -1,6 +1,7 @@
 package com.jy.jryjy.bean.response;
 
 import com.jy.jryjy.bean.base.BannerBean;
+import com.jy.jryjy.bean.base.HallMoreBean;
 import com.jy.jryjy.bean.base.LiveNowBean;
 
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ public class ResponseHallBean extends ResponseBaseBean {
     public class Content{
         private List<BannerBean> banner = new ArrayList<>();
         private List<LiveNowBean> trailer_now = new ArrayList<>();
+        private List<HallMoreBean> index_icon = new ArrayList<>();
         private Juemi juemi;
         private Mingshi mingshi;
         private Jingxuan jingxuan;
@@ -76,6 +78,14 @@ public class ResponseHallBean extends ResponseBaseBean {
 
         public void setMingshi(Mingshi mingshi) {
             this.mingshi = mingshi;
+        }
+
+        public List<HallMoreBean> getIndex_icon() {
+            return index_icon;
+        }
+
+        public void setIndex_icon(List<HallMoreBean> index_icon) {
+            this.index_icon = index_icon;
         }
     }
 
