@@ -262,9 +262,9 @@ public class ChatActivity extends KJActivity implements PullLoadMoreRecyclerView
         findViewById(R.id.ll_teacher_details).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent it = new Intent(ChatActivity.this,TeacherListDetailsActivity.class);
-//                it.putExtra("strTeacherId",m_strTeacherId);
-//                startActivity(it);
+                Intent it = new Intent(ChatActivity.this, TeacherListDetailsActivity.class);
+                it.putExtra("strTID",m_strTeacherId);
+                startActivity(it);
             }
         });
     }
