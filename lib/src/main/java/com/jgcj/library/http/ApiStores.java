@@ -64,6 +64,9 @@ public class ApiStores {
     /** banner  主页列表 */
     public static final String more = indexVersion + "more";
 
+    /** banner  主页列表 */
+    public static final String getAllTeacher = indexVersion + "getAllTeacher";
+
     /** 视频回放 */
     public static final String getafterClass = indexVersion + "getafterClass";
 }

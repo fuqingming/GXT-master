@@ -31,6 +31,7 @@ import com.jy.jryjy.adapter.VideoTypeCheckedAdapter;
 import com.jy.jryjy.base.BasePopListFragment;
 import com.jy.jryjy.bean.base.TeacherAnalysisBean;
 import com.jy.jryjy.bean.response.ResponseNewsAnalysisBean;
+import com.jy.jryjy.bean.response.ResponseTeacherTypeBean;
 import com.jy.jryjy.view.error.ErrorLayout;
 import com.jy.jryjy.view.recyclerview.RecycleViewDivider;
 
@@ -88,6 +89,8 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
         m_arrTeacherType = new ArrayList<>();
         m_arrTeacherName.add(new TeacherAnalysisBean("全部","",""));
         m_arrTeacherType.add(new TeacherAnalysisBean("全部","",""));
+        m_arrTeacherType.add(new TeacherAnalysisBean("早盘内参","","1"));
+        m_arrTeacherType.add(new TeacherAnalysisBean("晚盘内参","","2"));
     }
 
     @Override
@@ -96,19 +99,21 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
         m_ckTeacher.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                MoveToPosition();
-                filterTabToggleT(isChecked, m_ckTeacher,m_arrTeacherName,new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                        m_strUrl = "?t_id="+m_arrTeacherName.get(position).getT_id();
-                        hidePopListView();
-                        m_arrTeacherName.clear();
-                        m_arrTeacherType.clear();
-                        m_arrTeacherName.add(new TeacherAnalysisBean("全部","",""));
-                        m_arrTeacherType.add(new TeacherAnalysisBean("全部","",""));
-                        onRefreshView();
-                    }
-                }, m_ckTeacher, m_cbType,m_cbClass);
+                if(m_arrTeacherName.size() > 1){
+                    MoveToPosition();
+                    filterTabToggleT(isChecked, m_ckTeacher,m_arrTeacherName,new AdapterView.OnItemClickListener() {
+                        @Override
+                        public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+
+                            m_strUrl = "t_id="+m_arrTeacherName.get(position).getT_id();
+                            hidePopListView();
+                            onRefreshView();
+                        }
+                    }, m_ckTeacher, m_cbType,m_cbClass);
+                }else{
+                    getTypeTeacher1(isChecked);
+                }
+
             }
         });
 //        m_cbClass.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
@@ -130,33 +135,29 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
                 filterTabToggleT(isChecked, m_cbType, m_arrTeacherType,new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                        m_strUrl = "?neican_id="+m_arrTeacherType.get(position).getNeican_id();
+                        m_strUrl = "neican_id="+m_arrTeacherType.get(position).getT_id();
                         hidePopListView();
-                        m_arrTeacherName.clear();
-                        m_arrTeacherType.clear();
-                        m_arrTeacherName.add(new TeacherAnalysisBean("全部","",""));
-                        m_arrTeacherType.add(new TeacherAnalysisBean("全部","",""));
                         onRefreshView();
                     }
-                }, m_cbClass,m_cbType, m_ckTeacher);
+                },m_cbType, m_cbClass, m_ckTeacher);
             }
         });
 
         m_ckTeacherTop.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                filterTabToggleT(isChecked, m_ckTeacherTop, m_arrTeacherName,new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                        m_strUrl = "?t_id="+m_arrTeacherName.get(position).getT_id();
-                        hidePopListView();
-                        m_arrTeacherName.clear();
-                        m_arrTeacherType.clear();
-                        m_arrTeacherName.add(new TeacherAnalysisBean("全部","",""));
-                        m_arrTeacherType.add(new TeacherAnalysisBean("全部","",""));
-                        onRefreshView();
-                    }
-                }, m_ckTeacherTop, m_cbTypeTop,m_cbClassTop);
+                if(m_arrTeacherName.size() > 1){
+                    filterTabToggleT(isChecked, m_ckTeacherTop, m_arrTeacherName,new AdapterView.OnItemClickListener() {
+                        @Override
+                        public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                            m_strUrl = "t_id="+m_arrTeacherName.get(position).getT_id();
+                            hidePopListView();
+                            onRefreshView();
+                        }
+                    }, m_ckTeacherTop, m_cbTypeTop,m_cbClassTop);
+                }else{
+                    getTypeTeacher2(isChecked);
+                }
             }
         });
 //        m_cbClassTop.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
@@ -173,15 +174,11 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
         m_cbTypeTop.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                filterTabToggleT(isChecked, m_cbClassTop, m_arrTeacherType,new AdapterView.OnItemClickListener() {
+                filterTabToggleT(isChecked, m_cbTypeTop, m_arrTeacherType,new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                        m_strUrl = "?t_id="+m_arrTeacherType.get(position).getNeican_id();
+                        m_strUrl = "neican_id="+m_arrTeacherType.get(position).getT_id();
                         hidePopListView();
-                        m_arrTeacherName.clear();
-                        m_arrTeacherType.clear();
-                        m_arrTeacherName.add(new TeacherAnalysisBean("全部","",""));
-                        m_arrTeacherType.add(new TeacherAnalysisBean("全部","",""));
                         onRefreshView();
                     }
                 }, m_cbClassTop, m_ckTeacherTop,m_cbTypeTop);
@@ -239,10 +236,6 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
         mRecyclerView.setOnRefreshListener(new OnRefreshListener() {
             @Override
             public void onRefresh() {
-                m_arrTeacherName.clear();
-                m_arrTeacherType.clear();
-                m_arrTeacherName.add(new TeacherAnalysisBean("全部","",""));
-                m_arrTeacherType.add(new TeacherAnalysisBean("全部","",""));
                 m_strUrl = "";
                 onRefreshView();
             }
@@ -344,7 +337,8 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
     }
 
     protected void requestData(){
-        HttpClient.get(ApiStores.more+"?cate_id=1&"+m_strUrl+"&page="+mCurrentPage, new HttpCallback<ResponseNewsAnalysisBean>() {//ResponseHallBean
+        String url = ApiStores.more+"?cate_id=1&"+m_strUrl+"&page="+mCurrentPage;
+        HttpClient.get(url, new HttpCallback<ResponseNewsAnalysisBean>() {//ResponseHallBean
             @Override
             public void OnSuccess(ResponseNewsAnalysisBean response) {
 				if(response.getResult()){
@@ -352,11 +346,13 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
 						m_bannerBean.clear();
 						m_arrBanner.clear();
 					}
-					m_bannerBean.addAll(response.getContent().getBanner());
+					m_bannerBean.addAll(response.getContent().getJuemituijian().getData());
 					for(int i = 0 ; i < m_bannerBean.size() ; i ++){
 						m_arrBanner.add(m_bannerBean.get(i).getN_photo());
 					}
-					initBanner();
+					if(m_bannerBean.size()>0){
+                        initBanner();
+                    }
 
                     List<TeacherAnalysisBean> responseFragmentHallBeen = new ArrayList<>();
                     responseFragmentHallBeen.addAll(response.getContent().getJuemi().getData());
@@ -371,36 +367,6 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
                     }
                     executeOnLoadDataSuccess(responseFragmentHallBeen);
                     totalPage = responseFragmentHallBeen.size();
-                    boolean isHas = false;
-                    for(int i = 0 ; i < responseFragmentHallBeen.size() ; i ++){
-                        for(int j = 0 ; j < m_arrTeacherName.size() ; j ++){
-                            if(m_arrTeacherName.get(j).getT_nic_name().equals(responseFragmentHallBeen.get(i).getT_nic_name())){
-                                isHas = true;
-                                break;
-                            }
-                        }
-                        if(isHas){
-                            isHas = false;
-                            continue;
-                        }else{
-                            m_arrTeacherName.add(new TeacherAnalysisBean(responseFragmentHallBeen.get(i).getT_nic_name(),"",responseFragmentHallBeen.get(i).getT_id()));
-                        }
-                    }
-
-                    for(int i = 0 ; i < responseFragmentHallBeen.size() ; i ++){
-                        for(int j = 0 ; j < m_arrTeacherType.size() ; j ++){
-                            if(m_arrTeacherType.get(j).getNeican_id().equals(responseFragmentHallBeen.get(i).getNeican_id())){
-                                isHas = true;
-                                break;
-                            }
-                        }
-                        if(isHas){
-                            isHas = false;
-                            continue;
-                        }else{
-                            m_arrTeacherType.add(new TeacherAnalysisBean("",responseFragmentHallBeen.get(i).getNeican_id(),""));
-                        }
-                    }
 				}
             }
 
@@ -416,6 +382,80 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
             @Override
             public void OnRequestFinish() {
                 executeOnLoadFinish();
+            }
+        });
+    }
+
+    private void getTypeTeacher1(final boolean isChecked){
+        HttpClient.get(ApiStores.getAllTeacher, new HttpCallback<ResponseTeacherTypeBean>() {//ResponseHallBean
+            @Override
+            public void OnSuccess(ResponseTeacherTypeBean response) {
+                if(response.getResult()){
+
+                    for(int i = 0 ; i < response.getContent().size() ; i ++){
+                        m_arrTeacherName.add(new TeacherAnalysisBean(response.getContent().get(i).getT_nic_name(),"",response.getContent().get(i).getT_id()));
+                    }
+
+                    MoveToPosition();
+                    filterTabToggleT(isChecked, m_ckTeacher,m_arrTeacherName,new AdapterView.OnItemClickListener() {
+                        @Override
+                        public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                            m_strUrl = "t_id="+m_arrTeacherType.get(position).getT_id();
+                            hidePopListView();
+                            onRefreshView();
+                        }
+                    }, m_ckTeacher, m_cbType,m_cbClass);
+                }
+            }
+
+            @Override
+            public void OnFailure(String message) {
+            }
+
+            @Override
+            public void OnRequestStart() {
+            }
+
+            @Override
+            public void OnRequestFinish() {
+
+            }
+        });
+    }
+
+    private void getTypeTeacher2(final boolean isChecked){
+        HttpClient.get(ApiStores.getAllTeacher, new HttpCallback<ResponseTeacherTypeBean>() {//ResponseHallBean
+            @Override
+            public void OnSuccess(ResponseTeacherTypeBean response) {
+                if(response.getResult()){
+
+                    for(int i = 0 ; i < response.getContent().size() ; i ++){
+                        m_arrTeacherName.add(new TeacherAnalysisBean(response.getContent().get(i).getT_nic_name(),"",response.getContent().get(i).getT_id()));
+                    }
+
+                    filterTabToggleT(isChecked, m_ckTeacherTop, m_arrTeacherName,new AdapterView.OnItemClickListener() {
+                        @Override
+                        public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                            m_strUrl = "t_id="+m_arrTeacherType.get(position).getT_id();
+                            hidePopListView();
+                            onRefreshView();
+                        }
+                    }, m_ckTeacherTop, m_cbTypeTop,m_cbClassTop);
+                }
+            }
+
+            @Override
+            public void OnFailure(String message) {
+
+            }
+
+            @Override
+            public void OnRequestStart() {
+            }
+
+            @Override
+            public void OnRequestFinish() {
+
             }
         });
     }

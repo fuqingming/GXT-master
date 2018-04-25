@@ -4,10 +4,12 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
+import android.text.TextPaint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.baidu.mobstat.StatService;
 import com.blankj.utilcode.util.SPUtils;
@@ -217,6 +219,9 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 		mRecyclerView.setLoadMoreEnabled(true);
 		View header = LayoutInflater.from(getMContext()).inflate(R.layout.common_fragment_live_banner,mRecyclerView, false);
 		m_bpBanner = header.findViewById(R.id.banner_pager);
+		TextView tv_shikebiao = header.findViewById(R.id.tv_shikebiao);
+		TextPaint tp = tv_shikebiao.getPaint();
+		tp.setFakeBoldText(true);
 //		m_cbTop1 = header.findViewById(R.id.cb_top1);
 //		m_cbTop2 = header.findViewById(R.id.cb_top2);
 //		m_cbTop3 = header.findViewById(R.id.cb_top3);
@@ -320,7 +325,7 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 			public void OnSuccess(ResponseLiveBean response) {
 				if(response.getResult()){
 					if(response.getContent().getBanner().size()>0){
-						Glide.with(getMContext()).load(response.getContent().getBanner().get(0).getB_turn_link()).placeholder(R.mipmap.station_pic).into(m_bpBanner);
+						Glide.with(getMContext()).load(response.getContent().getBanner().get(0).getB_link()).into(m_bpBanner);
 					}
 
 					List<LiveBean> responseFragmentHallBeen = new ArrayList<>();

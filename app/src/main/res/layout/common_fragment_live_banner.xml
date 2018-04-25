@@ -10,8 +10,20 @@
     <ImageView
         android:id="@+id/banner_pager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
+        android:background="@color/dark"
         />
+
+    <TextView
+        android:id="@+id/tv_shikebiao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="时刻表"
+        android:gravity="center"
+        android:background="@color/white_color"
+        android:layout_marginBottom="1dp"
+        android:textColor="#F45536"
+        android:textSize="@dimen/fifteen"/>
 
     <RelativeLayout
         android:layout_width="match_parent"

@@ -99,6 +99,7 @@ public class ResponseHallBean extends ResponseBaseBean {
         private String t_nic_name;
         private String cate_id;
         private String catename;
+        private String detail_url;
 
         public String getN_id() {
             return n_id;
@@ -170,6 +171,14 @@ public class ResponseHallBean extends ResponseBaseBean {
 
         public void setCatename(String catename) {
             this.catename = catename;
+        }
+
+        public String getDetail_url() {
+            return detail_url;
+        }
+
+        public void setDetail_url(String detail_url) {
+            this.detail_url = detail_url;
         }
     }
 
@@ -183,6 +192,7 @@ public class ResponseHallBean extends ResponseBaseBean {
         private String t_nic_name;
         private String cate_id;
         private String catename;
+        private String detail_url;
 
         public String getN_id() {
             return n_id;
@@ -254,6 +264,14 @@ public class ResponseHallBean extends ResponseBaseBean {
 
         public void setCatename(String catename) {
             this.catename = catename;
+        }
+
+        public String getDetail_url() {
+            return detail_url;
+        }
+
+        public void setDetail_url(String detail_url) {
+            this.detail_url = detail_url;
         }
     }
 
@@ -267,6 +285,7 @@ public class ResponseHallBean extends ResponseBaseBean {
         private String t_nic_name;
         private String cate_id;
         private String catename;
+        private String detail_url;
 
         public String getN_id() {
             return n_id;
@@ -338,6 +357,14 @@ public class ResponseHallBean extends ResponseBaseBean {
 
         public void setCatename(String catename) {
             this.catename = catename;
+        }
+
+        public String getDetail_url() {
+            return detail_url;
+        }
+
+        public void setDetail_url(String detail_url) {
+            this.detail_url = detail_url;
         }
     }
 
@@ -351,6 +378,7 @@ public class ResponseHallBean extends ResponseBaseBean {
         private String t_nic_name;
         private String cate_id;
         private String catename;
+        private String detail_url;
 
         public String getN_id() {
             return n_id;
@@ -422,6 +450,13 @@ public class ResponseHallBean extends ResponseBaseBean {
 
         public void setCatename(String catename) {
             this.catename = catename;
+        }
+        public String getDetail_url() {
+            return detail_url;
+        }
+
+        public void setDetail_url(String detail_url) {
+            this.detail_url = detail_url;
         }
     }
 }

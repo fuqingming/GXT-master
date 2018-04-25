@@ -28,6 +28,7 @@ public class LiveNowBean implements Serializable {
     private String r_icon;
     private String r_room_id;
     private String r_room_breif;
+    private String type;
 
     public String getM_id() {
         return m_id;
@@ -171,5 +172,13 @@ public class LiveNowBean implements Serializable {
 
     public void setR_room_breif(String r_room_breif) {
         this.r_room_breif = r_room_breif;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

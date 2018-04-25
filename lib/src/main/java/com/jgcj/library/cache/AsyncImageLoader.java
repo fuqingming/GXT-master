@@ -78,6 +78,20 @@ public class AsyncImageLoader{
 		}
 	}
 
+	public void loadBitmap(ImageView imageView, String url) {
+		imageView.setTag(url);
+		mImageViews.put(imageView, url);
+		Bitmap bitmap = mMemoryCache.get(url);
+		if(bitmap == null) {
+			enquequeLoadPhoto(url, imageView);
+		}
+
+		if(bitmap == null) {
+		} else {
+			imageView.setImageBitmap(bitmap);
+		}
+	}
+
 	public void loadImage(ImageView imageView, String url) {
 		imageView.setTag(url);
 		mImageViews.put(imageView, url);

@@ -23,8 +23,7 @@ public class ResponseNewsAnalysisBean extends ResponseBaseBean {
 
     public class Content{
         private Juemi juemi;
-        private List<TeacherAnalysisBean> banner;
-
+        private Juemituijian juemituijian;
         public Juemi getJuemi() {
             return juemi;
         }
@@ -33,12 +32,12 @@ public class ResponseNewsAnalysisBean extends ResponseBaseBean {
             this.juemi = juemi;
         }
 
-        public List<TeacherAnalysisBean> getBanner() {
-            return banner;
+        public Juemituijian getJuemituijian() {
+            return juemituijian;
         }
 
-        public void setBanner(List<TeacherAnalysisBean> banner) {
-            this.banner = banner;
+        public void setJuemituijian(Juemituijian juemituijian) {
+            this.juemituijian = juemituijian;
         }
     }
 
@@ -55,5 +54,17 @@ public class ResponseNewsAnalysisBean extends ResponseBaseBean {
         }
 
 
+    }
+
+    public class Juemituijian{
+        private List<TeacherAnalysisBean> data;
+
+        public List<TeacherAnalysisBean> getData() {
+            return data;
+        }
+
+        public void setData(List<TeacherAnalysisBean> data) {
+            this.data = data;
+        }
     }
 }

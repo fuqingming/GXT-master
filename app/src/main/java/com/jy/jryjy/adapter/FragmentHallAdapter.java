@@ -16,6 +16,7 @@ import com.jgcj.library.util.TimeUtils;
 import com.jy.jryjy.FragmentLive;
 import com.jy.jryjy.MainActivity;
 import com.jy.jryjy.NewsActivity;
+import com.jy.jryjy.NewsWebViewActivity;
 import com.jy.jryjy.TeacherListDetailsActivity;
 import com.jy.jryjy.bean.response.ResponseHallBean;
 import com.jy.jryjy.view.recyclerview.BaseRecyclerViewHolder;
@@ -28,6 +29,9 @@ import butterknife.BindView;
  */
 
 public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
+
+    @BindView(R.id.tv_live_type)
+    TextView tvLiveType;
 
     @BindView(R.id.tv_title1)
     TextView ivTitle;
@@ -114,6 +118,11 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
             tp.setFakeBoldText(true);
             String time = TimeUtils.time2String(data.getContent().getTrailer_now().get(0).getM_start_time()*1000, "HH:mm") + TimeUtils.time2String(data.getContent().getTrailer_now().get(0).getM_end_time()*1000, "HH:mm");
             ivTime.setText(time);
+            if("1".equals(data.getContent().getTrailer_now().get(0).getType())){
+                tvLiveType.setText("直播中");
+            }else{
+                tvLiveType.setText("待直播");
+            }
         }
         llIntent1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -132,18 +141,20 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
             tp = ivTitleRecord .getPaint();
             tp.setFakeBoldText(true);
         }
-        rlJuemi.setOnClickListener(new View.OnClickListener() {
+        rlMingshi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SPUtils.getInstance(GlobalVariables.serverSp).put(GlobalVariables.INTENT_NEWS_SIGN,0);
+                SPUtils.getInstance(GlobalVariables.serverSp).put(GlobalVariables.INTENT_NEWS_SIGN,1);
                 Intent it = new Intent(mContext, NewsActivity.class);
                 mContext.startActivity(it);
             }
         });
-        llJuemi.setOnClickListener(new View.OnClickListener() {
+        llMingshi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent it = new Intent(mContext,NewsWebViewActivity.class);
+                it.putExtra("webViewUrl",data.getContent().getMingshi().getDetail_url());
+                mContext.startActivity(it);
             }
         });
 
@@ -158,20 +169,23 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
             tp = ivTitleAnalysis .getPaint();
             tp.setFakeBoldText(true);
         }
-        rlMingshi.setOnClickListener(new View.OnClickListener() {
+        rlJuemi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SPUtils.getInstance(GlobalVariables.serverSp).put(GlobalVariables.INTENT_NEWS_SIGN,1);
+                SPUtils.getInstance(GlobalVariables.serverSp).put(GlobalVariables.INTENT_NEWS_SIGN,0);
                 Intent it = new Intent(mContext, NewsActivity.class);
                 mContext.startActivity(it);
             }
         });
-        llMingshi.setOnClickListener(new View.OnClickListener() {
+        llJuemi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent it = new Intent(mContext,NewsWebViewActivity.class);
+                it.putExtra("webViewUrl",data.getContent().getJuemi().getDetail_url());
+                mContext.startActivity(it);
             }
         });
+
 
         if("".equals(data.getContent().getJingxuan().getCate_id())){
             llIntent2.setVisibility(View.GONE);
@@ -193,7 +207,9 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
         llJingxuan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent it = new Intent(mContext,NewsWebViewActivity.class);
+                it.putExtra("webViewUrl",data.getContent().getJingxuan().getDetail_url());
+                mContext.startActivity(it);
             }
         });
 
@@ -217,7 +233,9 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
         llShichang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent it = new Intent(mContext,NewsWebViewActivity.class);
+                it.putExtra("webViewUrl",data.getContent().getShichang().getDetail_url());
+                mContext.startActivity(it);
             }
         });
     }

@@ -24,7 +24,7 @@ public class MainActivity extends FragmentActivityBase {
 
     // Tab文字及图标
     private int m_iconArray[] = {R.drawable.main_tab_hall_selector,
-            R.drawable.main_tab_vedio_selector,
+//            R.drawable.main_tab_vedio_selector,
             R.drawable.main_tab_live_selector,
             R.drawable.main_tab_information_selector,
             R.drawable.main_tab_mine_selector};

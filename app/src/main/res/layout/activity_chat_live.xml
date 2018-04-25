@@ -197,18 +197,13 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_marginLeft="10dp">
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@mipmap/comment"
-                            />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="14dp"
                             android:textColorHint="#888888"
-                            android:text="写评论…"
-                            android:layout_marginLeft="10dp"/>
+                            android:text="我要互动"/>
                     </LinearLayout>
 
                     <EditText

@@ -11,8 +11,8 @@ import java.io.Serializable;
 public class TeacherAnalysisBean implements Serializable {
 
     public static final int MORNING = 0;
-    public static final int NOON = 1;
-    public static final int NIGHT = 2;
+    public static final String  NOON = "1";
+    public static final String NIGHT = "2";
     public static final int WEEK = 3;
     public static final int MONTH = 4;
 
@@ -33,26 +33,6 @@ public class TeacherAnalysisBean implements Serializable {
         this.t_id = t_id;
         this.t_nic_name = t_nic_name;
         this.neican_id = neican_id;
-    }
-
-    public static int getMORNING() {
-        return MORNING;
-    }
-
-    public static int getNOON() {
-        return NOON;
-    }
-
-    public static int getNIGHT() {
-        return NIGHT;
-    }
-
-    public static int getWEEK() {
-        return WEEK;
-    }
-
-    public static int getMONTH() {
-        return MONTH;
     }
 
     public String getN_id() {

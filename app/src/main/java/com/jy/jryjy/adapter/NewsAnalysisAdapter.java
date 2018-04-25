@@ -51,18 +51,11 @@ public class NewsAnalysisAdapter extends BaseRecyclerAdapter<TeacherAnalysisBean
         TextPaint paint = m_ivTitle.getPaint();
         paint.setFakeBoldText(true);
         m_ivText.setText(data.getDesc());
-        m_ivType.setVisibility(View.GONE);
-//        if(data.getType() == TeacherAnalysisBean.MORNING){
-//            m_ivType.setImageDrawable(mContext.getResources().getDrawable(R.mipmap.news_zp));
-//        }else if(data.getType() == TeacherAnalysisBean.NOON){
-//            m_ivType.setImageDrawable(mContext.getResources().getDrawable(R.mipmap.news_wsjp));
-//        }else if(data.getType() == TeacherAnalysisBean.NIGHT){
-//            m_ivType.setImageDrawable(mContext.getResources().getDrawable(R.mipmap.news_ws));
-//        }else if(data.getType() == TeacherAnalysisBean.WEEK){
-//            m_ivType.setImageDrawable(mContext.getResources().getDrawable(R.mipmap.news_zqs));
-//        }else if(data.getType() == TeacherAnalysisBean.MONTH){
-//            m_ivType.setImageDrawable(mContext.getResources().getDrawable(R.mipmap.news_yqs));
-//        }
+        if(data.getNeican_id() == TeacherAnalysisBean.NOON){
+            m_ivType.setImageDrawable(mContext.getResources().getDrawable(R.mipmap.noon_ic));
+        }else if(data.getNeican_id() == TeacherAnalysisBean.NIGHT){
+            m_ivType.setImageDrawable(mContext.getResources().getDrawable(R.mipmap.night_ic));
+        }
     }
 
 }
