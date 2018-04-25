@@ -13,9 +13,10 @@
         android:layout_height="wrap_content"
         android:background="@color/white_color"
         android:orientation="vertical"
-        android:id="@+id/ll_intent1"
+
         android:layout_marginTop="5dp">
         <RelativeLayout
+            android:id="@+id/rl_intent1"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@color/white_color"
@@ -53,6 +54,7 @@
         </RelativeLayout>
 
         <LinearLayout
+            android:id="@+id/ll_intent1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"

@@ -13,6 +13,8 @@ import com.blankj.utilcode.util.SPUtils;
 import com.bumptech.glide.Glide;
 import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.util.TimeUtils;
+import com.jgcj.library.util.Utils;
+import com.jy.jryjy.ChatLiveActivity;
 import com.jy.jryjy.FragmentLive;
 import com.jy.jryjy.MainActivity;
 import com.jy.jryjy.NewsActivity;
@@ -37,6 +39,8 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
     TextView ivTitle;
     @BindView(R.id.tv_time1)
     TextView ivTime;
+    @BindView(R.id.rl_intent1)
+    RelativeLayout rlIntent;
 
     @BindView(R.id.tv_title2)
     TextView ivTitleRecord;
@@ -119,15 +123,33 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
             String time = TimeUtils.time2String(data.getContent().getTrailer_now().get(0).getM_start_time()*1000, "HH:mm") + TimeUtils.time2String(data.getContent().getTrailer_now().get(0).getM_end_time()*1000, "HH:mm");
             ivTime.setText(time);
             if("1".equals(data.getContent().getTrailer_now().get(0).getType())){
-                tvLiveType.setText("直播中");
+                tvLiveType.setText("即将直播");
+            }else if("2".equals(data.getContent().getTrailer_now().get(0).getType())){
+                tvLiveType.setText("正在直播");
             }else{
-                tvLiveType.setText("待直播");
+                tvLiveType.setText("无直播");
             }
         }
-        llIntent1.setOnClickListener(new View.OnClickListener() {
+        rlIntent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 ((MainActivity)mContext).setCurrentTab(FragmentLive.class);
+            }
+        });
+        llIntent1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if("1".equals(data.getContent().getTrailer_now().get(0).getType())){
+                    Utils.showToast(mContext,"直播尚未开始，敬请期待！");
+                }else if("2".equals(data.getContent().getTrailer_now().get(0).getType())){
+                    Intent it = new Intent(mContext, ChatLiveActivity.class);
+                    it.putExtra("strRoomId",data.getContent().getTrailer_now().get(0).getR_room_id());
+                    it.putExtra("strLiveUrl",data.getContent().getTrailer_now().get(0).getVideo_url());
+                    mContext.startActivity(it);
+                }else{
+                    Utils.showToast(mContext,"直播尚未开始，敬请期待！");
+                }
+
             }
         });
 
