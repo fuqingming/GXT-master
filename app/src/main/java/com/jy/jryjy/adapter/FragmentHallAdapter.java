@@ -117,7 +117,7 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
         if(data.getContent().getTrailer_now().size() == 0){
             llIntent1.setVisibility(View.GONE);
         }else{
-            ivTitle.setText(data.getContent().getTrailer_now().get(0).getR_room_breif());
+            ivTitle.setText(data.getContent().getTrailer_now().get(0).getM_title());
             tp = ivTitle .getPaint();
             tp.setFakeBoldText(true);
             String time = TimeUtils.time2String(data.getContent().getTrailer_now().get(0).getM_start_time()*1000, "HH:mm") + TimeUtils.time2String(data.getContent().getTrailer_now().get(0).getM_end_time()*1000, "HH:mm");
