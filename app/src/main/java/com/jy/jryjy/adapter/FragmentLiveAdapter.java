@@ -6,12 +6,13 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.R;
 import com.jy.jryjy.bean.base.LiveBeginingBean;
 import com.jy.jryjy.bean.base.LiveOverBean;
 import com.jy.jryjy.bean.base.LiveWillBean;
 import com.jy.jryjy.bean.response.ResponseFragmentLiveBean;
-import com.jy.jryjy.view.recyclerview.BaseRecyclerViewHolder;
+import com.jgcj.library.view.recyclerview.BaseRecyclerViewHolder;
 
 import java.util.List;
 

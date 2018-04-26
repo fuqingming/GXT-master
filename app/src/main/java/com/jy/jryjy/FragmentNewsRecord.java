@@ -10,12 +10,12 @@ import com.github.jdsjlzx.interfaces.OnRefreshListener;
 import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.NewsRecordAdapter;
-import com.jy.jryjy.base.BaseListFragment;
+import com.jgcj.library.base.BaseListFragment;
 import com.jy.jryjy.bean.base.TeacherAnalysisBean;
 import com.jy.jryjy.bean.response.ResponseNewsAnalysisBean;
-import com.jy.jryjy.view.recyclerview.RecycleViewDivider;
+import com.jgcj.library.view.recyclerview.RecycleViewDivider;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,13 +28,7 @@ import butterknife.Unbinder;
  */
 public class FragmentNewsRecord extends BaseListFragment<TeacherAnalysisBean> {
 
-    Unbinder unbinder;
     private NewsRecordAdapter m_adapterNewsAnalysisAdapter = new NewsRecordAdapter();
-
-    @Override
-    protected void initData() {
-        unbinder = ButterKnife.bind(this, getContentView());
-    }
 
     @Override
     protected int getLayoutId() {
@@ -93,7 +87,6 @@ public class FragmentNewsRecord extends BaseListFragment<TeacherAnalysisBean> {
                     List<TeacherAnalysisBean> responseFragmentHallBeen = new ArrayList<>();
                     responseFragmentHallBeen.addAll(response.getContent().getJuemi().getData());
                     executeOnLoadDataSuccess(responseFragmentHallBeen);
-                    totalPage = responseFragmentHallBeen.size();
                 }
             }
 

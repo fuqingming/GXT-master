@@ -8,11 +8,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.R;
 import com.jy.jryjy.TeacherListDetailsActivity;
-import com.jy.jryjy.bean.base.LiveBean;
 import com.jy.jryjy.bean.base.TeacherListBean;
-import com.jy.jryjy.view.recyclerview.BaseRecyclerViewHolder;
+import com.jgcj.library.view.recyclerview.BaseRecyclerViewHolder;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

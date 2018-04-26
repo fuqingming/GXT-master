@@ -17,13 +17,13 @@ import com.joker.pager.BannerPager;
 import com.joker.pager.PagerOptions;
 import com.joker.pager.holder.ViewHolder;
 import com.joker.pager.holder.ViewHolderCreator;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.LivePlayBackAdapter;
-import com.jy.jryjy.base.BaseListFragment;
+import com.jgcj.library.base.BaseListFragment;
 import com.jy.jryjy.bean.base.BannerBean;
 import com.jy.jryjy.bean.base.VideoPlayBackBean;
 import com.jy.jryjy.util.DataUtil;
-import com.jy.jryjy.view.recyclerview.RecycleViewDivider;
+import com.jgcj.library.view.recyclerview.RecycleViewDivider;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,8 +36,6 @@ import butterknife.Unbinder;
  *
  * */
 public class FragmentVideo extends BaseListFragment<VideoPlayBackBean> {
-
-	Unbinder unbinder;
 
 	private LinearLayoutManager m_linearLayoutManager;
 	private View m_headerBanner;
@@ -55,8 +53,6 @@ public class FragmentVideo extends BaseListFragment<VideoPlayBackBean> {
 	public void initView() {
 		super.initView();
 		Utils.initCommonTitle(getContentView(), "视频回顾");
-		unbinder = ButterKnife.bind(this, getContentView());
-
 	}
 
 	@Override
@@ -182,7 +178,6 @@ public class FragmentVideo extends BaseListFragment<VideoPlayBackBean> {
 		}
 		executeOnLoadDataSuccess(videoPlayBackBeans);
 
-		totalPage = videoPlayBackBeans.size();
 		executeOnLoadFinish();
 //		HttpClient.get(ApiStores.banner, new HttpCallback<ResponseHallBean>() {
 //			@Override

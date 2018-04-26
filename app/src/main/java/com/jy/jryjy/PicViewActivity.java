@@ -12,9 +12,9 @@ import android.view.SoundEffectConstants;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.jy.jryjy.view.BigImage.ImageObject;
-import com.jy.jryjy.view.BigImage.ImageSource;
-import com.jy.jryjy.view.PinchImageView;
+import com.jgcj.library.view.BigImage.ImageObject;
+import com.jgcj.library.view.BigImage.ImageSource;
+import com.jgcj.library.view.PinchImageView;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;

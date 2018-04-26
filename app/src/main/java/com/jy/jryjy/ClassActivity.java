@@ -2,9 +2,7 @@ package com.jy.jryjy;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -27,18 +25,15 @@ import com.joker.pager.BannerPager;
 import com.joker.pager.PagerOptions;
 import com.joker.pager.holder.ViewHolder;
 import com.joker.pager.holder.ViewHolderCreator;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.ClassAdapter;
-import com.jy.jryjy.adapter.TeacherListDetailsAdapter;
 import com.jy.jryjy.adapter.ClassTypeCheckedAdapter;
-import com.jy.jryjy.base.BasePopListActivity;
+import com.jgcj.library.base.BasePopListActivity;
 import com.jy.jryjy.bean.base.BannerBean;
 import com.jy.jryjy.bean.base.ClassBean;
-import com.jy.jryjy.bean.base.TeacherDetailsBean;
-import com.jy.jryjy.bean.response.ResponseBaseBean;
 import com.jy.jryjy.bean.response.ResponseClassBean;
 import com.jy.jryjy.util.DataUtil;
-import com.jy.jryjy.view.error.ErrorLayout;
+import com.jgcj.library.view.error.ErrorLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -342,8 +337,8 @@ public class ClassActivity extends BasePopListActivity<ClassBean> {
                             executeOnLoadDataSuccess(videoPlayBackBeans);
                         }
                     }
-                    totalPage = videoPlayBackBeans.size();
-                    executeOnLoadFinish();
+
+
 				}
             }
 

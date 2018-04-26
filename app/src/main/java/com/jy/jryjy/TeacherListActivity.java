@@ -8,12 +8,10 @@ import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.TeacherListAdapter;
-import com.jy.jryjy.base.BaseListActivity;
-import com.jy.jryjy.bean.base.LiveBean;
+import com.jgcj.library.base.BaseListActivity;
 import com.jy.jryjy.bean.base.TeacherListBean;
-import com.jy.jryjy.bean.response.ResponseLiveBean;
 import com.jy.jryjy.bean.response.ResponseTeacherListBean;
 
 import java.util.ArrayList;
@@ -72,8 +70,6 @@ public class TeacherListActivity extends BaseListActivity<TeacherListBean> {
                     List<TeacherListBean> arrClassOpenBean = new ArrayList<>();
                     arrClassOpenBean.addAll(response.getContent().getData());
                     executeOnLoadDataSuccess(arrClassOpenBean);
-                    totalPage = arrClassOpenBean.size();
-                    executeOnLoadFinish();
                 }
             }
 

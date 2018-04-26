@@ -10,10 +10,10 @@ import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jy.jryjy.bean.response.ResponseFollowBean;
 import com.jy.jryjy.bean.response.ResponseTeacherBean;
-import com.jy.jryjy.util.alert.AlertUtils;
+import com.jgcj.library.util.alert.AlertUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

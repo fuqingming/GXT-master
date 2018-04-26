@@ -9,9 +9,9 @@ import com.github.jdsjlzx.interfaces.OnRefreshListener;
 import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.NewsInformationAdapter;
-import com.jy.jryjy.base.BaseListFragment;
+import com.jgcj.library.base.BaseListFragment;
 import com.jy.jryjy.bean.base.TeacherAnalysisBean;
 import com.jy.jryjy.bean.response.ResponseNewsAnalysisBean;
 
@@ -26,14 +26,7 @@ import butterknife.Unbinder;
  */
 public class FragmentNewsInformation extends BaseListFragment<TeacherAnalysisBean> {
 
-    Unbinder unbinder;
-
     private NewsInformationAdapter m_adapterNewsAnalysisAdapter = new NewsInformationAdapter();
-
-    @Override
-    protected void initData() {
-        unbinder = ButterKnife.bind(this, getContentView());
-    }
 
     @Override
     protected int getLayoutId() {
@@ -91,7 +84,6 @@ public class FragmentNewsInformation extends BaseListFragment<TeacherAnalysisBea
                     List<TeacherAnalysisBean> responseFragmentHallBeen = new ArrayList<>();
                     responseFragmentHallBeen.addAll(response.getContent().getJuemi().getData());
                     executeOnLoadDataSuccess(responseFragmentHallBeen);
-                    totalPage = responseFragmentHallBeen.size();
                 }
             }
 

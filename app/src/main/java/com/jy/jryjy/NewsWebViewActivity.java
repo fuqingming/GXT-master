@@ -14,15 +14,13 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.jy.jryjy.base.BaseAppCompatActivity;
-import com.jy.jryjy.util.HUDProgressUtils;
+import com.jgcj.library.base.BaseAppCompatActivity;
+import com.jgcj.library.util.HUDProgressUtils;
 import com.kaopiz.kprogresshud.KProgressHUD;
 import butterknife.BindView;
 
 public class NewsWebViewActivity extends BaseAppCompatActivity {
     private static final String LOG_TAG = "NewPwdActivity";
-
-    KProgressHUD kProgressHUD;
 
     @BindView(R.id.webview)
     WebView m_viewWeb;
@@ -32,10 +30,6 @@ public class NewsWebViewActivity extends BaseAppCompatActivity {
     @Override
     protected int setLayoutResourceId() {
         return R.layout.activity_news_webview;
-    }
-
-    protected void init(){
-        kProgressHUD = new HUDProgressUtils().showLoadingImage(this);
     }
 
     @Override

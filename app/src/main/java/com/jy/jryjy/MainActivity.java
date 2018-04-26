@@ -3,7 +3,6 @@ package com.jy.jryjy;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTabHost;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -13,10 +12,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.blankj.utilcode.util.SPUtils;
 import com.jgcj.library.backhandler.OnBackPressedInterface;
-import com.jgcj.library.cache.AsyncImageLoader;
 import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.FragmentActivityBase;
+import com.jgcj.library.base.FragmentActivityBase;
 
 public class MainActivity extends FragmentActivityBase {
 

@@ -1,7 +1,6 @@
 package com.jy.jryjy.adapter;
 
 
-import android.graphics.Bitmap;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -9,10 +8,10 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.jgcj.library.cache.AsyncImageLoader;
-import com.jgcj.library.cache.ImageCacheManager;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.R;
 import com.jy.jryjy.bean.base.RoomBean;
-import com.jy.jryjy.view.recyclerview.BaseRecyclerViewHolder;
+import com.jgcj.library.view.recyclerview.BaseRecyclerViewHolder;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -9,12 +9,12 @@ import com.github.jdsjlzx.interfaces.OnItemClickListener;
 import com.github.jdsjlzx.interfaces.OnLoadMoreListener;
 import com.github.jdsjlzx.interfaces.OnRefreshListener;
 import com.jgcj.library.util.NiceUtil;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.ChoiceClassAdapter;
-import com.jy.jryjy.base.BaseListActivity;
+import com.jgcj.library.base.BaseListActivity;
 import com.jy.jryjy.bean.base.VideoPlayBackBean;
 import com.jy.jryjy.util.DataUtil;
-import com.jy.jryjy.view.recyclerview.RecycleViewDivider;
+import com.jgcj.library.view.recyclerview.RecycleViewDivider;
 import com.xiao.nicevideoplayer.NiceVideoPlayer;
 import com.xiao.nicevideoplayer.NiceVideoPlayerManager;
 import com.xiao.nicevideoplayer.TxVideoPlayerController;
@@ -143,7 +143,7 @@ public class ChoiceClassActivity extends BaseListActivity<VideoPlayBackBean> {
     protected void requestData(){
         List<VideoPlayBackBean> videoPlayBackBeans = DataUtil.initVideoPlayBackBean();
         executeOnLoadDataSuccess(videoPlayBackBeans);
-        totalPage = videoPlayBackBeans.size();
+
         executeOnLoadFinish();
 //        HttpClient.get(ApiStores.banner, new HttpCallback<ResponseBaseBean>() {//ResponseHallBean
 //            @Override

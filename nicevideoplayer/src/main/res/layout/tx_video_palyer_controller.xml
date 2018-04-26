@@ -291,6 +291,11 @@
             android:text="00:00"
             android:textColor="@android:color/white"
             android:textSize="12sp"/>
+        <ImageView
+            android:id="@+id/full_screen"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_player_enlarge"/>
     </LinearLayout>
     <!--右下角初始显示的总时长-->
     <TextView

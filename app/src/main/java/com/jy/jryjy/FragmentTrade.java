@@ -1,10 +1,8 @@
 package com.jy.jryjy;
 
 import android.app.AlertDialog;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.webkit.JavascriptInterface;
 import android.webkit.JsResult;
@@ -16,20 +14,10 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.jgcj.library.backhandler.OnBackPressedInterface;
-import com.jgcj.library.http.ApiStores;
-import com.jgcj.library.http.HttpCallback;
-import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseFragment;
-import com.jy.jryjy.bean.response.ResponseHallBean;
-
-import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
+import com.jgcj.library.base.BaseFragment;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 /**
  *
@@ -37,7 +25,7 @@ import butterknife.Unbinder;
  * */
 public class FragmentTrade extends BaseFragment  implements OnBackPressedInterface {
 
-	Unbinder unbinder;
+
 
 	@BindView(R.id.webview)
 	WebView m_viewWeb;
@@ -48,12 +36,6 @@ public class FragmentTrade extends BaseFragment  implements OnBackPressedInterfa
 	@Override
 	protected int setLayoutResourceID() {
 		return R.layout.fragment_trade;
-	}
-
-	@Override
-	protected void init() {
-		super.init();
-		unbinder = ButterKnife.bind(this, getContentView());
 	}
 
 	@Override

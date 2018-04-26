@@ -119,6 +119,68 @@ public class Utils {
         }
     }
 
+    // 设置通用Title
+    public static void initCommonTitle(final Activity activity, final String strTitle, String strLeft,String strRight)
+    {
+        initCommonTitle(activity, null, strTitle, strLeft, strRight);
+    }
+
+    // 设置通用Title
+    public static void initCommonTitle(	final Activity activity,
+                                           final String strTitle,
+                                           final String strLeft)
+    {
+        initCommonTitle(activity, null, strTitle, strLeft, "");
+    }
+
+    // 设置通用Title
+    public static void initCommonTitle(final View vContent, final String strTitle, String strLeft,String strRight)
+    {
+        initCommonTitle(null,vContent, strTitle,strLeft,strRight);
+    }
+
+    // 设置通用Title
+    public static void initCommonTitle(final View vContent, final String strTitle, String strLeft)
+    {
+        initCommonTitle(null,vContent, strTitle,strLeft,"");
+    }
+
+    // 设置通用Title
+    public static void initCommonTitle(	final Activity activity,
+                                           final View vContent,
+                                           final String strTitle,
+                                           String strLeft,
+                                           String strRight)
+    {
+        TextView tvTitle = null;
+        TextView tvLeft = null;
+        TextView tvRight = null;
+        if(vContent == null)
+        {
+            tvTitle = activity.findViewById(R.id.tv_title_text);
+            tvLeft = activity.findViewById(R.id.tv_title_back);
+            tvRight = activity.findViewById(R.id.tv_title_right);
+        }
+        else
+        {
+            tvTitle =  vContent.findViewById(R.id.tv_title_text);
+            tvLeft =  vContent.findViewById(R.id.tv_title_back);
+            tvRight =  vContent.findViewById(R.id.tv_title_right);
+        }
+
+        tvTitle.setText(strTitle);
+        tvLeft.setText(strLeft);
+        tvRight.setText(strRight);
+
+        tvLeft.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                activity.finish();
+            }
+        });
+    }
+
     public static Dialog showCommonDialogEdit(final Context context, final String pwd,final OnTaskSuccessComplete onTaskSuccess)
     {
         View vContent = LayoutInflater.from(context).inflate(R.layout.dialog_common_edit, null);

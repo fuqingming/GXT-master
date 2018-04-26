@@ -7,7 +7,7 @@ import com.blankj.utilcode.util.SPUtils;
 import com.bumptech.glide.Glide;
 import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.xiao.nicevideoplayer.NiceUtil;
 import com.xiao.nicevideoplayer.NiceVideoPlayer;
 import com.xiao.nicevideoplayer.NiceVideoPlayerManager;
@@ -86,7 +86,7 @@ public class LivePlaybackActivity extends BaseAppCompatActivity {
 
     @Override
     public void onBackPressed() {
-//        if (NiceVideoPlayerManager.instance().onBackPressd()) return;
+        if (NiceVideoPlayerManager.instance().onBackPressd()) return;
         super.onBackPressed();
     }
 }

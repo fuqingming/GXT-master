@@ -2,14 +2,14 @@ package com.jy.jryjy.adapter;
 
 
 import android.text.TextPaint;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.R;
 import com.jy.jryjy.bean.base.TeacherAnalysisBean;
-import com.jy.jryjy.view.recyclerview.BaseRecyclerViewHolder;
+import com.jgcj.library.view.recyclerview.BaseRecyclerViewHolder;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

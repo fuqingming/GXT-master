@@ -12,10 +12,10 @@ import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.MD5;
 import com.jgcj.library.util.RegexUtil;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jy.jryjy.bean.response.ResponseBaseBean;
-import com.jy.jryjy.util.HUDProgressUtils;
-import com.jy.jryjy.util.alert.AlertUtils;
+import com.jgcj.library.util.HUDProgressUtils;
+import com.jgcj.library.util.alert.AlertUtils;
 import com.kaopiz.kprogresshud.KProgressHUD;
 
 import org.greenrobot.eventbus.EventBus;
@@ -26,8 +26,6 @@ import butterknife.OnClick;
 
 public class NewPwdActivity extends BaseAppCompatActivity {
     private static final String LOG_TAG = "NewPwdActivity";
-
-    KProgressHUD kProgressHUD;
 
     @BindView(R.id.et_pwd1)
     EditText m_etPwd1;
@@ -41,10 +39,6 @@ public class NewPwdActivity extends BaseAppCompatActivity {
     @Override
     protected int setLayoutResourceId() {
         return R.layout.activity_forget_pwd_new;
-    }
-
-    protected void init(){
-        kProgressHUD = new HUDProgressUtils().showLoadingImage(this);
     }
 
     @Override

@@ -12,10 +12,10 @@ import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.RegexUtil;
 import com.jgcj.library.util.SmsSendCounter;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jy.jryjy.bean.response.ResponseBaseBean;
-import com.jy.jryjy.util.HUDProgressUtils;
-import com.jy.jryjy.util.alert.AlertUtils;
+import com.jgcj.library.util.HUDProgressUtils;
+import com.jgcj.library.util.alert.AlertUtils;
 import com.kaopiz.kprogresshud.KProgressHUD;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -35,8 +35,6 @@ public class ForgetPwdActivity extends BaseAppCompatActivity {
     private static final int RESEND_VERIFY_CODE_SECOND = 60;
     private SmsSendCounter m_myCount = null;
 
-    KProgressHUD kProgressHUD;
-
     @BindView(R.id.et_phone)
     EditText m_etPhone;
     @BindView(R.id.et_verify_number)
@@ -55,13 +53,8 @@ public class ForgetPwdActivity extends BaseAppCompatActivity {
         return R.layout.activity_forget_pwd;
     }
 
-    protected void init(){
-        kProgressHUD = new HUDProgressUtils().showLoadingImage(this);
-    }
-
     @Override
     protected void setUpView() {
-        ButterKnife.bind(this);
         EventBus.getDefault().register(this);
         Utils.initCommonTitle(this,"忘记密码",true);
         m_tvNext.setText("下一步");

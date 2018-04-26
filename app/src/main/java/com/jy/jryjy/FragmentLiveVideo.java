@@ -1,42 +1,34 @@
 package com.jy.jryjy;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.text.TextPaint;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.baidu.mobstat.StatService;
-import com.blankj.utilcode.util.SPUtils;
 import com.bumptech.glide.Glide;
 import com.github.jdsjlzx.interfaces.OnLoadMoreListener;
 import com.github.jdsjlzx.interfaces.OnRefreshListener;
-import com.jgcj.library.cache.AsyncImageLoader;
-import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jgcj.library.util.Utils;
-import com.joker.pager.BannerPager;
-import com.joker.pager.PagerOptions;
-import com.joker.pager.holder.ViewHolder;
-import com.joker.pager.holder.ViewHolderCreator;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.FragmentLiveAdapter;
 import com.jy.jryjy.adapter.LiveAdapter;
-import com.jy.jryjy.base.BaseListFragment;
-import com.jy.jryjy.bean.base.BannerBean;
+import com.jgcj.library.base.BaseListFragment;
 import com.jy.jryjy.bean.base.LiveBean;
 import com.jy.jryjy.bean.response.ResponseLiveBean;
-import com.jy.jryjy.view.error.ErrorLayout;
+import com.jgcj.library.view.error.ErrorLayout;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import butterknife.BindView;
 
 /**
  *
@@ -58,8 +50,8 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 //	private View viewTop4;
 //	private View viewTop5;
 //
-//	@BindView(R.id.cb_bottom1)
-//	CheckBox m_cbBottom1;
+	@BindView(R.id.cb_bottom1)
+	CheckBox m_cbBottom1;
 //	@BindView(R.id.cb_bottom2)
 //	CheckBox m_cbBottom2;
 //	@BindView(R.id.cb_bottom3)
@@ -97,6 +89,12 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 	@Override
 	public void initView() {
 		super.initView();
+		m_cbBottom1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Utils.showToast(getMContext(),"22");
+			}
+		});
 
 //		m_cbListTop.add(m_cbTop1);
 //		m_cbListTop.add(m_cbTop2);
@@ -339,8 +337,6 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 							executeOnLoadDataSuccess(responseFragmentHallBeen);
 						}
 					}
-					totalPage = responseFragmentHallBeen.size();
-					executeOnLoadFinish();
 				}
 			}
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\workspace\\GXT-master\\GXT-master\\easeui\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "/Users/fuqingming/Documents/GitHub/GXT-master/easeui/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\90d6f31adf22d46159a9ac0e93014231\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "/Users/fuqingming/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5c25075d1a03c6731b2bb2fc3b2e16c2/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

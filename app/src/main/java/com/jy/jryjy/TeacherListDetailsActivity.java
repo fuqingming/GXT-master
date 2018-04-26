@@ -15,9 +15,9 @@ import com.github.jdsjlzx.interfaces.OnRefreshListener;
 import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.TeacherListDetailsAdapter;
-import com.jy.jryjy.base.BaseListActivity;
+import com.jgcj.library.base.BaseListActivity;
 import com.jy.jryjy.bean.response.ResponseTeacherDetailsBean;
 import java.util.ArrayList;
 import java.util.List;
@@ -103,8 +103,6 @@ public class TeacherListDetailsActivity extends BaseListActivity<ResponseTeacher
                     List<ResponseTeacherDetailsBean.TeacherDetail> TeacherDetail = new ArrayList<>();
                     TeacherDetail.addAll(response.getContent().getTeacherDetail());
                     executeOnLoadDataSuccess(TeacherDetail);
-                    totalPage = TeacherDetail.size();
-                    executeOnLoadFinish();
 				}
             }
 

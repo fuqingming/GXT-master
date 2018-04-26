@@ -49,6 +49,7 @@ public class TxVideoPlayerController
     private TextView mDuration;
     private SeekBar mSeek;
     private TextView mClarity;
+    private ImageView mFullScreen;
 
     private LinearLayout mLoading;
     private TextView mLoadText;
@@ -108,7 +109,7 @@ public class TxVideoPlayerController
 
         mLoading = (LinearLayout) findViewById(R.id.loading);
         mLoadText = (TextView) findViewById(R.id.load_text);
-
+        mFullScreen = (ImageView) findViewById(R.id.full_screen);
         mChangePositon = (LinearLayout) findViewById(R.id.change_position);
         mChangePositionCurrent = (TextView) findViewById(R.id.change_position_current);
         mChangePositionProgress = (ProgressBar) findViewById(R.id.change_position_progress);
@@ -133,6 +134,7 @@ public class TxVideoPlayerController
         mRetry.setOnClickListener(this);
         mReplay.setOnClickListener(this);
         mShare.setOnClickListener(this);
+        mFullScreen.setOnClickListener(this);
         mSeek.setOnSeekBarChangeListener(this);
         this.setOnClickListener(this);
     }
@@ -251,6 +253,8 @@ public class TxVideoPlayerController
         switch (playMode) {
             case NiceVideoPlayer.MODE_NORMAL:
                 mBack.setVisibility(View.GONE);
+                mFullScreen.setImageResource(R.drawable.ic_player_enlarge);
+                mFullScreen.setVisibility(View.VISIBLE);
                 mClarity.setVisibility(View.GONE);
                 mBatteryTime.setVisibility(View.GONE);
                 if (hasRegisterBatteryReceiver) {
@@ -260,6 +264,8 @@ public class TxVideoPlayerController
                 break;
             case NiceVideoPlayer.MODE_FULL_SCREEN:
                 mBack.setVisibility(View.VISIBLE);
+                mFullScreen.setVisibility(View.GONE);
+                mFullScreen.setImageResource(R.drawable.ic_player_shrink);
                 if (clarities != null && clarities.size() > 1) {
                     mClarity.setVisibility(View.VISIBLE);
                 }
@@ -322,6 +328,7 @@ public class TxVideoPlayerController
         mImage.setVisibility(View.VISIBLE);
 
         mBottom.setVisibility(View.GONE);
+        mFullScreen.setImageResource(R.drawable.ic_player_enlarge);
 
         mTop.setVisibility(View.VISIBLE);
         mBack.setVisibility(View.GONE);
@@ -353,7 +360,13 @@ public class TxVideoPlayerController
             } else if (mNiceVideoPlayer.isPaused() || mNiceVideoPlayer.isBufferingPaused()) {
                 mNiceVideoPlayer.restart();
             }
-        }  else if (v == mClarity) {
+        } else if (v == mFullScreen) {
+            if (mNiceVideoPlayer.isNormal() || mNiceVideoPlayer.isTinyWindow()) {
+                mNiceVideoPlayer.enterFullScreen();
+            } else if (mNiceVideoPlayer.isFullScreen()) {
+                mNiceVideoPlayer.exitFullScreen();
+            }
+        }   else if (v == mClarity) {
             setTopBottomVisible(false); // 隐藏top、bottom
             mClarityDialog.show();     // 显示清晰度对话框
         } else if (v == mRetry) {

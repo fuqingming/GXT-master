@@ -13,13 +13,13 @@ import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.FragmentTrainAdapter;
-import com.jy.jryjy.base.BaseListFragment;
+import com.jgcj.library.base.BaseListFragment;
 import com.jy.jryjy.bean.base.RoomBean;
 import com.jy.jryjy.bean.response.ResponseTrainBean;
 import com.jy.jryjy.huanxin.DemoHelper;
-import com.jy.jryjy.view.recyclerview.RecycleViewDivider;
+import com.jgcj.library.view.recyclerview.RecycleViewDivider;
 
 /**
  *
@@ -139,7 +139,6 @@ public class FragmentLiveTrain extends BaseListFragment<RoomBean> {
 //					}
 //					executeOnLoadDataSuccess(list);
 					executeOnLoadDataSuccess(response.getContent().getRoom());
-					totalPage = response.getContent().getRoom().size();
 				}
 			}
 

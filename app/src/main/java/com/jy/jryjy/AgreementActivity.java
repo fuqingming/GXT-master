@@ -2,7 +2,7 @@ package com.jy.jryjy;
 
 
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 
 public class AgreementActivity extends BaseAppCompatActivity {
 

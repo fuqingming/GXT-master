@@ -17,11 +17,10 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 import com.blankj.utilcode.util.SPUtils;
-import com.bumptech.glide.Glide;
 import com.jgcj.library.cache.AsyncImageLoader;
 import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.data.Const;
-import com.jy.jryjy.base.BaseFragment;
+import com.jgcj.library.base.BaseFragment;
 import com.jy.jryjy.huanxin.DemoHelper;
 
 import org.greenrobot.eventbus.EventBus;
@@ -39,8 +38,6 @@ import butterknife.Unbinder;
  * */
 public class FragmentMine extends BaseFragment {
 
-	Unbinder unbinder;
-
 	@BindView(R.id.iv_icon)
 	ImageView m_ivIcon;
 	@BindView(R.id.tv_name)
@@ -54,12 +51,6 @@ public class FragmentMine extends BaseFragment {
 	@Override
 	protected int setLayoutResourceID() {
 		return R.layout.fragment_mine;
-	}
-
-	@Override
-	protected void init() {
-		super.init();
-		unbinder = ButterKnife.bind(this, getContentView());
 	}
 
 	@Override

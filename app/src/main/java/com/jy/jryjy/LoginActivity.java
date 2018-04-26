@@ -1,7 +1,6 @@
 package com.jy.jryjy;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -17,15 +16,13 @@ import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.MD5;
 import com.jgcj.library.util.RegexUtil;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jy.jryjy.bean.response.ResponseLoginBean;
 import com.jy.jryjy.huanxin.DemoHelper;
 import com.jy.jryjy.huanxin.db.DemoDBManager;
-import com.jy.jryjy.util.HUDProgressUtils;
-import com.jy.jryjy.util.alert.AlertUtils;
+import com.jgcj.library.util.HUDProgressUtils;
+import com.jgcj.library.util.alert.AlertUtils;
 import com.kaopiz.kprogresshud.KProgressHUD;
-
-import org.greenrobot.eventbus.EventBus;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -37,8 +34,6 @@ import butterknife.OnClick;
  *
  */
 public class LoginActivity extends BaseAppCompatActivity {
-
-    KProgressHUD kProgressHUD;
 
     private static final String TAG = "LoginActivity";
 
@@ -52,10 +47,6 @@ public class LoginActivity extends BaseAppCompatActivity {
     @Override
     protected int setLayoutResourceId() {
         return R.layout.activity_login;
-    }
-
-    protected void init(){
-        kProgressHUD = new HUDProgressUtils().showLoadingImage(this);
     }
 
     @Override

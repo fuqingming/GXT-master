@@ -17,12 +17,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.baidu.mobstat.StatService;
-import com.blankj.utilcode.util.SPUtils;
 import com.bumptech.glide.Glide;
 import com.github.jdsjlzx.interfaces.OnLoadMoreListener;
 import com.github.jdsjlzx.interfaces.OnRefreshListener;
-import com.jgcj.library.cache.AsyncImageLoader;
-import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
@@ -32,12 +29,12 @@ import com.joker.pager.PagerOptions;
 import com.joker.pager.holder.ViewHolder;
 import com.joker.pager.holder.ViewHolderCreator;
 import com.joker.pager.transformer.ScaleTransformer;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.FragmentHallAdapter;
 import com.jy.jryjy.adapter.MyGridViewAdpter;
 import com.jy.jryjy.adapter.MyGridViewPapgerAdpter;
 import com.jy.jryjy.adapter.MyViewPagerAdapter;
-import com.jy.jryjy.base.BaseListFragment;
+import com.jgcj.library.base.BaseListFragment;
 import com.jy.jryjy.bean.base.BannerBean;
 import com.jy.jryjy.bean.base.ProdctBean;
 import com.jy.jryjy.bean.base.ProdctSeletBean;
@@ -358,7 +355,7 @@ public class FragmentHall extends BaseListFragment<ResponseHallBean> {
 					List<ResponseHallBean> responseFragmentHallBeen = new ArrayList<>();
 					responseFragmentHallBeen.add(response);
 					executeOnLoadDataSuccess(responseFragmentHallBeen);
-					totalPage = responseFragmentHallBeen.size();
+
 				}
 			}
 

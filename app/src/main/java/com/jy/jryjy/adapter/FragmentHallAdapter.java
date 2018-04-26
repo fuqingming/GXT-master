@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.blankj.utilcode.util.SPUtils;
 import com.bumptech.glide.Glide;
 import com.jgcj.library.constants.GlobalVariables;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jgcj.library.util.TimeUtils;
 import com.jgcj.library.util.Utils;
 import com.jy.jryjy.ChatLiveActivity;
@@ -19,9 +20,8 @@ import com.jy.jryjy.FragmentLive;
 import com.jy.jryjy.MainActivity;
 import com.jy.jryjy.NewsActivity;
 import com.jy.jryjy.NewsWebViewActivity;
-import com.jy.jryjy.TeacherListDetailsActivity;
 import com.jy.jryjy.bean.response.ResponseHallBean;
-import com.jy.jryjy.view.recyclerview.BaseRecyclerViewHolder;
+import com.jgcj.library.view.recyclerview.BaseRecyclerViewHolder;
 import com.jy.jryjy.R;
 import butterknife.BindView;
 

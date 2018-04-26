@@ -31,8 +31,8 @@ import com.jy.jryjy.ChatLiveActivity;
 import com.jy.jryjy.R;
 import com.jy.jryjy.bean.base.ChatLiveMessageBean;
 import com.jy.jryjy.bean.base.ChatMessageBean;
-import com.jy.jryjy.view.commonRecyclerAdapter.CommonRecyclerAdapter;
-import com.jy.jryjy.view.commonRecyclerAdapter.ViewHolder;
+import com.jgcj.library.view.commonRecyclerAdapter.CommonRecyclerAdapter;
+import com.jgcj.library.view.commonRecyclerAdapter.ViewHolder;
 
 public class ChatLiveAdapter extends CommonRecyclerAdapter<ChatLiveMessageBean> {
     private ChatLiveActivity.OnChatItemClickListener listener;

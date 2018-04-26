@@ -3,7 +3,6 @@ package com.jy.jryjy;
 import android.annotation.SuppressLint;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import com.blankj.utilcode.util.SPUtils;
 import com.jgcj.library.constants.GlobalVariables;
@@ -11,9 +10,9 @@ import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jy.jryjy.bean.response.ResponseBaseBean;
-import com.jy.jryjy.util.alert.AlertUtils;
+import com.jgcj.library.util.alert.AlertUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -24,10 +23,6 @@ public class ChangeNicknameActivity extends BaseAppCompatActivity {
 
     @BindView(R.id.et_text)
     EditText m_etText;
-    @BindView(R.id.tv_title_back)
-    TextView m_tvTitleBack;
-    @BindView(R.id.tv_title_right)
-    TextView m_tvTitleRight;
 
     private String m_strNickname;
 
@@ -38,10 +33,7 @@ public class ChangeNicknameActivity extends BaseAppCompatActivity {
 
     @Override
     protected void setUpView() {
-        ButterKnife.bind(this);
-
-        m_tvTitleBack.setText("取消");
-        m_tvTitleRight.setText("保存");
+        Utils.initCommonTitle(this,"修改昵称","取消","保存");
 
         Utils.showKeyboard(this);
         m_etText.requestFocus();

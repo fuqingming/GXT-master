@@ -6,8 +6,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.jy.jryjy.view.recyclerview.BaseRecyclerViewAdapter;
-import com.jy.jryjy.view.recyclerview.BaseRecyclerViewHolder;
+import com.jgcj.library.view.recyclerview.BaseRecyclerViewAdapter;
+import com.jgcj.library.view.recyclerview.BaseRecyclerViewHolder;
 import com.jy.jryjy.R;
 import com.jy.jryjy.bean.base.LiveVedioBean;
 import java.util.List;

@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jgcj.library.util.NiceUtil;
 import com.jgcj.library.util.TimeUtils;
 import com.jgcj.library.util.Utils;
@@ -17,7 +18,7 @@ import com.jy.jryjy.LoginActivity;
 import com.jy.jryjy.R;
 import com.jy.jryjy.bean.base.LiveBean;
 import com.jy.jryjy.huanxin.DemoHelper;
-import com.jy.jryjy.view.recyclerview.BaseRecyclerViewHolder;
+import com.jgcj.library.view.recyclerview.BaseRecyclerViewHolder;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -8,7 +8,7 @@ import android.text.TextUtils;
 import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.util.HanziToPinyin;
-import com.jy.jryjy.base.BaseApplication;
+import com.jy.jryjy.BaseApplication;
 import com.jy.jryjy.huanxin.Constant;
 import com.jy.jryjy.huanxin.domain.InviteMessage;
 import com.jy.jryjy.huanxin.domain.RobotUser;

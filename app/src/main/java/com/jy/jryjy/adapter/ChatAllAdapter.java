@@ -30,8 +30,8 @@ import com.jgcj.library.util.TimeUtils;
 import com.jy.jryjy.ChatActivity;
 import com.jy.jryjy.R;
 import com.jy.jryjy.bean.base.ChatMessageBean;
-import com.jy.jryjy.view.commonRecyclerAdapter.CommonRecyclerAdapter;
-import com.jy.jryjy.view.commonRecyclerAdapter.ViewHolder;
+import com.jgcj.library.view.commonRecyclerAdapter.CommonRecyclerAdapter;
+import com.jgcj.library.view.commonRecyclerAdapter.ViewHolder;
 
 import org.kymjs.kjframe.KJBitmap;
 

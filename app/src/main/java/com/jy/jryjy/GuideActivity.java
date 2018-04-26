@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import com.blankj.utilcode.util.SPUtils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.util.Utils;
 

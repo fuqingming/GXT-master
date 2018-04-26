@@ -9,10 +9,10 @@ import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jy.jryjy.bean.response.ResponseBaseBean;
-import com.jy.jryjy.util.HUDProgressUtils;
-import com.jy.jryjy.util.alert.AlertUtils;
+import com.jgcj.library.util.HUDProgressUtils;
+import com.jgcj.library.util.alert.AlertUtils;
 import com.kaopiz.kprogresshud.KProgressHUD;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -20,8 +20,6 @@ import butterknife.OnClick;
 
 public class OpinionActivity extends BaseAppCompatActivity {
     private static final String LOG_TAG = "OpinionActivity";
-
-    KProgressHUD kProgressHUD;
 
     @BindView(R.id.et_text)
     EditText m_etText;
@@ -31,10 +29,6 @@ public class OpinionActivity extends BaseAppCompatActivity {
     @Override
     protected int setLayoutResourceId() {
         return R.layout.activity_opinion;
-    }
-
-    protected void init(){
-        kProgressHUD = new HUDProgressUtils().showLoadingImage(this);
     }
 
     @Override

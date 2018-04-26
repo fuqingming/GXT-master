@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.TabHost;
 import android.widget.TextView;
 
-import com.jy.jryjy.base.BaseFragment;
+import com.jgcj.library.base.BaseFragment;
 
 import org.greenrobot.eventbus.Subscribe;
 
@@ -16,7 +16,6 @@ import butterknife.Unbinder;
  * @author 付庆明
  * */
 public class FragmentLive extends BaseFragment {
-	Unbinder unbinder;
 	private FragmentTabHost m_tabHost = null;
 
 	// 各tab页对应的fragment
@@ -31,7 +30,6 @@ public class FragmentLive extends BaseFragment {
 	@Override
 	protected void init() {
 		super.init();
-		unbinder = ButterKnife.bind(this, getContentView());
 	}
 
 	@Override

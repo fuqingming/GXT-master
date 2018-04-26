@@ -3,7 +3,6 @@ package com.jy.jryjy;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.blankj.utilcode.util.SPUtils;
@@ -17,12 +16,12 @@ import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.MD5;
 import com.jgcj.library.util.RegexUtil;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jy.jryjy.bean.response.ResponseBaseBean;
 import com.jy.jryjy.huanxin.DemoHelper;
 import com.jy.jryjy.huanxin.db.DemoDBManager;
-import com.jy.jryjy.util.HUDProgressUtils;
-import com.jy.jryjy.util.alert.AlertUtils;
+import com.jgcj.library.util.HUDProgressUtils;
+import com.jgcj.library.util.alert.AlertUtils;
 import com.kaopiz.kprogresshud.KProgressHUD;
 
 import butterknife.BindView;
@@ -31,19 +30,12 @@ import butterknife.OnClick;
 
 public class ChangePwdActivity extends BaseAppCompatActivity {
 
-    KProgressHUD kProgressHUD;
-
     @BindView(R.id.et_pwd_bellow)
     EditText m_etPwdBellow;
     @BindView(R.id.et_pwd_new)
     EditText m_etPwdNew;
     @BindView(R.id.et_pwd_again)
     EditText m_etPwdAgain;
-
-    @BindView(R.id.tv_title_back)
-    TextView m_tvTitleLeft;
-    @BindView(R.id.tv_title_right)
-    TextView m_tvTitleRight;
 
     private String m_strMd5Pwd;
     private String m_strPasswordBellow;
@@ -54,15 +46,12 @@ public class ChangePwdActivity extends BaseAppCompatActivity {
     }
 
     protected void init(){
-        kProgressHUD = new HUDProgressUtils().showLoadingImage(this);
+
     }
 
     @Override
     protected void setUpView() {
-        ButterKnife.bind(this);
-        Utils.initCommonTitle(this,"修改密码",true);
-        m_tvTitleLeft.setText("取消");
-        m_tvTitleRight.setText("确定");
+        Utils.initCommonTitle(this,"修改密码","取消","确定");
 
     }
 

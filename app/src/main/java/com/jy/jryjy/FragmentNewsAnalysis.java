@@ -25,15 +25,15 @@ import com.joker.pager.BannerPager;
 import com.joker.pager.PagerOptions;
 import com.joker.pager.holder.ViewHolder;
 import com.joker.pager.holder.ViewHolderCreator;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.NewsAnalysisAdapter;
 import com.jy.jryjy.adapter.VideoTypeCheckedAdapter;
-import com.jy.jryjy.base.BasePopListFragment;
+import com.jgcj.library.base.BasePopListFragment;
 import com.jy.jryjy.bean.base.TeacherAnalysisBean;
 import com.jy.jryjy.bean.response.ResponseNewsAnalysisBean;
 import com.jy.jryjy.bean.response.ResponseTeacherTypeBean;
-import com.jy.jryjy.view.error.ErrorLayout;
-import com.jy.jryjy.view.recyclerview.RecycleViewDivider;
+import com.jgcj.library.view.error.ErrorLayout;
+import com.jgcj.library.view.recyclerview.RecycleViewDivider;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,8 +46,6 @@ import butterknife.Unbinder;
  * Created on 2/8/18.
  */
 public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBean> {
-
-    Unbinder unbinder;
 
     private NewsAnalysisAdapter m_adapterNewsAnalysisAdapter = new NewsAnalysisAdapter();
 
@@ -82,7 +80,7 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
 
     @Override
     protected void initData() {
-        unbinder = ButterKnife.bind(this, getContentView());
+
         m_bannerBean = new ArrayList<>();
         m_arrBanner = new ArrayList<>();
         m_arrTeacherName = new ArrayList<>();
@@ -366,7 +364,6 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
                         }
                     }
                     executeOnLoadDataSuccess(responseFragmentHallBeen);
-                    totalPage = responseFragmentHallBeen.size();
 				}
             }
 

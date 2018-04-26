@@ -9,7 +9,7 @@ import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.util.Utils;
 import com.jgcj.library.view.NoScrollViewPager;
 import com.jgcj.library.view.ViewPagerIndicator;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.Arrays;

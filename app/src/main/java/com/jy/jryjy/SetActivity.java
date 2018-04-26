@@ -1,6 +1,5 @@
 package com.jy.jryjy;
 
-import android.content.Intent;
 import android.view.View;
 import android.widget.TextView;
 
@@ -9,7 +8,7 @@ import com.jgcj.library.constants.GlobalVariables;
 import com.jgcj.library.util.CleanMessageUtil;
 import com.jgcj.library.util.Utils;
 import com.jgcj.library.view.switchbutton.FSwitchButton;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

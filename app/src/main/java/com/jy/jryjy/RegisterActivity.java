@@ -15,11 +15,11 @@ import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.RegexUtil;
 import com.jgcj.library.util.SmsSendCounter;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.base.BaseAppCompatActivity;
+import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jy.jryjy.bean.response.ResponseBaseBean;
 import com.jy.jryjy.huanxin.DemoHelper;
-import com.jy.jryjy.util.HUDProgressUtils;
-import com.jy.jryjy.util.alert.AlertUtils;
+import com.jgcj.library.util.HUDProgressUtils;
+import com.jgcj.library.util.alert.AlertUtils;
 import com.kaopiz.kprogresshud.KProgressHUD;
 
 import java.util.concurrent.TimeUnit;
@@ -37,8 +37,6 @@ public class RegisterActivity extends BaseAppCompatActivity {
     private static final String LOG_TAG = "RegisterActivity";
     private static final int RESEND_VERIFY_CODE_SECOND = 60;
     private SmsSendCounter m_myCount = null;
-
-    KProgressHUD kProgressHUD;
 
     @BindView(R.id.et_phone)
     EditText m_etPhone;
@@ -59,10 +57,6 @@ public class RegisterActivity extends BaseAppCompatActivity {
     @Override
     protected int setLayoutResourceId() {
         return R.layout.activity_register;
-    }
-
-    protected void init(){
-        kProgressHUD = new HUDProgressUtils().showLoadingImage(this);
     }
 
     @Override

@@ -10,12 +10,12 @@ import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.Utils;
-import com.jy.jryjy.adapter.BaseRecyclerAdapter;
+import com.jgcj.library.util.BaseRecyclerAdapter;
 import com.jy.jryjy.adapter.MessageAdapter;
-import com.jy.jryjy.base.BaseListActivity;
+import com.jgcj.library.base.BaseListActivity;
 import com.jy.jryjy.bean.base.MessageBean;
 import com.jy.jryjy.bean.response.ResponseMessageBean;
-import com.jy.jryjy.util.alert.AlertUtils;
+import com.jgcj.library.util.alert.AlertUtils;
 
 public class MessageActivity extends BaseListActivity<MessageBean> {
 
@@ -83,7 +83,6 @@ public class MessageActivity extends BaseListActivity<MessageBean> {
             @Override
             public void OnSuccess(ResponseMessageBean response) {
                 executeOnLoadDataSuccess(response.getContent());
-                totalPage = response.getContent().size();
             }
 
             @Override
