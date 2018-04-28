@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.jgcj.library.base.BaseAppCompatActivity;
 import com.jgcj.library.util.HUDProgressUtils;
+import com.jgcj.library.util.Utils;
 import com.kaopiz.kprogresshud.KProgressHUD;
 import butterknife.BindView;
 
@@ -34,6 +35,7 @@ public class NewsWebViewActivity extends BaseAppCompatActivity {
 
     @Override
     protected void setUpView() {
+        Utils.initCommonTitle(this,"资讯",true);
         m_viewWeb.loadUrl(getIntent().getStringExtra("webViewUrl"));//加载url
 
         //使用webview显示html代码

@@ -40,7 +40,7 @@ public class FragmentTrade extends BaseFragment  implements OnBackPressedInterfa
 
 	@Override
 	protected void setUpView() {
-		Utils.initCommonTitle(getContentView(),"交易");
+//		Utils.initCommonTitle(getContentView(),"交易");
 		m_viewWeb.loadUrl("http://gxt.mqcll.cn/index/User/transaction");//加载url
 //		m_viewWeb.loadUrl("https://www.baidu.com/");
 		m_viewWeb.addJavascriptInterface(this,"android");//添加js监听 这样html就能调用客户端

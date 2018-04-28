@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.jgcj.library.util.BaseRecyclerAdapter;
+import com.jgcj.library.util.ImageLoader;
 import com.jy.jryjy.R;
 import com.jy.jryjy.bean.base.TeacherAnalysisBean;
 import com.jgcj.library.view.recyclerview.BaseRecyclerViewHolder;
@@ -44,7 +45,8 @@ public class NewsAnalysisAdapter extends BaseRecyclerAdapter<TeacherAnalysisBean
     @Override
     protected void covert(BaseRecyclerViewHolder holder, TeacherAnalysisBean data, int position) {
         ButterKnife.bind(this, holder.getView());
-        Glide.with(mContext).load(data.getT_photo()).placeholder(R.mipmap.head_s).into(m_ivIcon);
+//        Glide.with(mContext).load(data.getT_photo()).placeholder(R.mipmap.head_s).into(m_ivIcon);
+        ImageLoader.getInstace().loadCircleImg(mContext, m_ivIcon, data.getT_photo(),R.mipmap.head_s);
         m_ivName.setText(data.getT_nic_name());
         m_ivTime.setText(data.getCreatetime());
         m_ivTitle.setText(data.getTitle());

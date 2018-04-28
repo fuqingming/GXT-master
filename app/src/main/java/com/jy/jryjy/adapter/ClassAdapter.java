@@ -26,8 +26,8 @@ public class ClassAdapter extends BaseRecyclerAdapter<ClassBean> {
     ImageView m_ivPic;
     @BindView(R.id.tv_title)
     TextView m_ivTitle;
-    @BindView(R.id.tv_time)
-    TextView m_ivTime;
+//    @BindView(R.id.tv_time)
+//    TextView m_ivTime;
     @BindView(R.id.tv_name)
     TextView m_ivName;
     @BindView(R.id.ll_item_click)
@@ -46,7 +46,7 @@ public class ClassAdapter extends BaseRecyclerAdapter<ClassBean> {
         ButterKnife.bind(this, holder.getView());
         Glide.with(mContext).load(data.getC_photo()).placeholder(R.mipmap.head_s).into(m_ivPic);
         m_ivName.setText(data.getT_nic_name());
-        m_ivTime.setText(data.getM_time());
+//        m_ivTime.setText(data.getM_time());
         m_ivTitle.setText(data.getM_title());
         m_llItemClick.setOnClickListener(new View.OnClickListener() {
             @Override

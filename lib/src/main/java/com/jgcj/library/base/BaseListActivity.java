@@ -39,7 +39,7 @@ public abstract class BaseListActivity<T> extends AppCompatActivity {
     protected int totalPage = 10;
     protected final int REQUEST_COUNT = 10;
     protected LRecyclerView mRecyclerView;
-    ErrorLayout mErrorLayout;
+    protected ErrorLayout mErrorLayout;
     protected Button toTopBtn;
 
     protected BaseRecyclerAdapter<T> mListAdapter;

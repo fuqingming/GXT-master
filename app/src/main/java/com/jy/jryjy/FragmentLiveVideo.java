@@ -215,9 +215,9 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 	protected void initLayoutManager() {
 		mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 		mRecyclerView.setLoadMoreEnabled(true);
-		View header = LayoutInflater.from(getMContext()).inflate(R.layout.common_fragment_live_banner,mRecyclerView, false);
-		m_bpBanner = header.findViewById(R.id.banner_pager);
-		TextView tv_shikebiao = header.findViewById(R.id.tv_shikebiao);
+//		View header = LayoutInflater.from(getMContext()).inflate(R.layout.common_fragment_live_banner,mRecyclerView, false);
+		m_bpBanner = getContentView().findViewById(R.id.banner_pager);
+		TextView tv_shikebiao = getContentView().findViewById(R.id.tv_shikebiao);
 		TextPaint tp = tv_shikebiao.getPaint();
 		tp.setFakeBoldText(true);
 //		m_cbTop1 = header.findViewById(R.id.cb_top1);
@@ -230,7 +230,7 @@ public class FragmentLiveVideo extends BaseListFragment<LiveBean> {
 //		viewTop3 = header.findViewById(R.id.view_top3);
 //		viewTop4 = header.findViewById(R.id.view_top4);
 //		viewTop5 = header.findViewById(R.id.view_top5);
-		mRecyclerViewAdapter.addHeaderView(header);
+//		mRecyclerViewAdapter.addHeaderView(header);
 		mRecyclerView.setOnRefreshListener(new OnRefreshListener() {
 			@Override
 			public void onRefresh() {

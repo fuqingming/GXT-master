@@ -3,6 +3,7 @@ package com.jy.jryjy.adapter;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.text.TextPaint;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -56,8 +57,12 @@ public class LiveAdapter extends BaseRecyclerAdapter<LiveBean> {
         ButterKnife.bind(this, holder.getView());
         m_ivName.setText(data.getT_nic_name());
         Glide.with(mContext).load(data.getT_photo()).placeholder(R.mipmap.head_s).into(m_ivIcon);
-        m_ivTime.setText(TimeUtils.time2String(data.getM_time()*1000, "MM-dd HH:mm"));
+        m_ivTime.setText(TimeUtils.time2String(data.getM_time()*1000, "HH:mm"));
+        TextPaint tp = m_ivTime.getPaint();
+        tp.setFakeBoldText(true);
         m_ivTimeType.setText(data.getM_title());
+        TextPaint tp1 = m_ivTimeType.getPaint();
+        tp1.setFakeBoldText(true);
         m_ivText.setText(data.getM_content());
         if(data.getType() == LiveBean.LIVEING){
             m_ivType.setImageResource(R.mipmap.live_live);

@@ -223,9 +223,9 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
         });
 
 
-        ivTitleUmoversoty5.setText(data.getContent().getJingxuan().getTitle());
-        ivTimeUmoversoty5.setText(data.getContent().getJingxuan().getCreatetime());
-        Glide.with(mContext).load(data.getContent().getJingxuan().getN_photo()).into(ivPicUmoversoty5);
+        ivTitleUmoversoty5.setText(data.getContent().getShichang().getTitle());
+        ivTimeUmoversoty5.setText(data.getContent().getShichang().getCreatetime());
+        Glide.with(mContext).load(data.getContent().getShichang().getN_photo()).into(ivPicUmoversoty5);
         tp = ivTitleUmoversoty5 .getPaint();
         tp.setFakeBoldText(true);
         rlShichang.setOnClickListener(new View.OnClickListener() {

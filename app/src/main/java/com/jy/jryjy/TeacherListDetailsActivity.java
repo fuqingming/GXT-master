@@ -16,6 +16,7 @@ import com.jgcj.library.http.ApiStores;
 import com.jgcj.library.http.HttpCallback;
 import com.jgcj.library.http.HttpClient;
 import com.jgcj.library.util.BaseRecyclerAdapter;
+import com.jgcj.library.view.error.ErrorLayout;
 import com.jy.jryjy.adapter.TeacherListDetailsAdapter;
 import com.jgcj.library.base.BaseListActivity;
 import com.jy.jryjy.bean.response.ResponseTeacherDetailsBean;
@@ -100,9 +101,14 @@ public class TeacherListDetailsActivity extends BaseListActivity<ResponseTeacher
                     tv_name.setText( response.getContent().getTeacher().getT_nic_name());
                     tv_name_title.setText( response.getContent().getTeacher().getT_strategy());
                     iv_text.setText( response.getContent().getTeacher().getT_brief());
-                    List<ResponseTeacherDetailsBean.TeacherDetail> TeacherDetail = new ArrayList<>();
-                    TeacherDetail.addAll(response.getContent().getTeacherDetail());
-                    executeOnLoadDataSuccess(TeacherDetail);
+                    if(response.getContent().getTeacherDetail().size() > 0){
+                        List<ResponseTeacherDetailsBean.TeacherDetail> TeacherDetail = new ArrayList<>();
+                        TeacherDetail.addAll(response.getContent().getTeacherDetail());
+                        executeOnLoadDataSuccess(TeacherDetail);
+                    }else{
+                        mErrorLayout.setErrorType(ErrorLayout.HIDE_LAYOUT);
+                    }
+
 				}
             }
 
