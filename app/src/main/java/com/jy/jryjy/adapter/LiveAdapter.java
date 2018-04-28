@@ -57,7 +57,7 @@ public class LiveAdapter extends BaseRecyclerAdapter<LiveBean> {
         ButterKnife.bind(this, holder.getView());
         m_ivName.setText(data.getT_nic_name());
         Glide.with(mContext).load(data.getT_photo()).placeholder(R.mipmap.head_s).into(m_ivIcon);
-        m_ivTime.setText(TimeUtils.time2String(data.getM_time()*1000, "HH:mm"));
+        m_ivTime.setText(TimeUtils.time2String(data.getM_start_time()*1000, "HH:mm"));
         TextPaint tp = m_ivTime.getPaint();
         tp.setFakeBoldText(true);
         m_ivTimeType.setText(data.getM_title());
