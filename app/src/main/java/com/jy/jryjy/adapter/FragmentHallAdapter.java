@@ -153,16 +153,12 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
             }
         });
 
-        if("".equals(data.getContent().getMingshi().getCate_id())){
-            llIntent2.setVisibility(View.GONE);
-        }else{
-            ivTitleRecord.setText(data.getContent().getMingshi().getTitle());
-            Glide.with(mContext).load(data.getContent().getMingshi().getN_photo()).placeholder(R.mipmap.station_pic).into(ivPicRecord);
-            ivTimeRecord.setText(data.getContent().getMingshi().getCreatetime());
-            ivTitleText2.setText(data.getContent().getMingshi().getDesc());
-            tp = ivTitleRecord .getPaint();
-            tp.setFakeBoldText(true);
-        }
+        ivTitleRecord.setText(data.getContent().getMingshi().getTitle());
+        Glide.with(mContext).load(data.getContent().getMingshi().getN_photo()).placeholder(R.mipmap.station_pic).into(ivPicRecord);
+        ivTimeRecord.setText(data.getContent().getMingshi().getCreatetime());
+        ivTitleText2.setText(data.getContent().getMingshi().getDesc());
+        tp = ivTitleRecord .getPaint();
+        tp.setFakeBoldText(true);
         rlMingshi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -180,17 +176,13 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
             }
         });
 
-        if("".equals(data.getContent().getJuemi().getCate_id())){
-            llIntent2.setVisibility(View.GONE);
-        }else{
-            Glide.with(mContext).load(data.getContent().getJuemi().getN_photo()).placeholder(R.mipmap.head_s).into(ivIconAnalysis);
-            ivNameAnalysis.setText(data.getContent().getJuemi().getT_nic_name());
-            ivTimeAnalysis.setText(data.getContent().getJuemi().getCreatetime());
-            ivTitleAnalysis.setText(data.getContent().getJuemi().getTitle());
-            ivTitleText3.setText(data.getContent().getJuemi().getDesc());
-            tp = ivTitleAnalysis .getPaint();
-            tp.setFakeBoldText(true);
-        }
+        Glide.with(mContext).load(data.getContent().getJuemi().getT_photo()).placeholder(R.mipmap.head_s).into(ivIconAnalysis);
+        ivNameAnalysis.setText(data.getContent().getJuemi().getT_nic_name());
+        ivTimeAnalysis.setText(data.getContent().getJuemi().getCreatetime());
+        ivTitleAnalysis.setText(data.getContent().getJuemi().getTitle());
+        ivTitleText3.setText(data.getContent().getJuemi().getDesc());
+        tp = ivTitleAnalysis .getPaint();
+        tp.setFakeBoldText(true);
         rlJuemi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -208,16 +200,11 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
             }
         });
 
-
-        if("".equals(data.getContent().getJingxuan().getCate_id())){
-            llIntent2.setVisibility(View.GONE);
-        }else{
-            ivTitleUmoversoty.setText(data.getContent().getJingxuan().getTitle());
-            ivTimeUmoversoty.setText(data.getContent().getJingxuan().getCreatetime());
-            Glide.with(mContext).load(data.getContent().getJingxuan().getN_photo()).into(ivPicUmoversoty);
-            tp = ivTitleUmoversoty .getPaint();
-            tp.setFakeBoldText(true);
-        }
+        ivTitleUmoversoty.setText(data.getContent().getJingxuan().getTitle());
+        ivTimeUmoversoty.setText(data.getContent().getJingxuan().getCreatetime());
+        Glide.with(mContext).load(data.getContent().getJingxuan().getN_photo()).into(ivPicUmoversoty);
+        tp = ivTitleUmoversoty .getPaint();
+        tp.setFakeBoldText(true);
         rlJingxuan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -235,15 +222,12 @@ public class FragmentHallAdapter extends BaseRecyclerAdapter<ResponseHallBean> {
             }
         });
 
-        if("".equals(data.getContent().getJingxuan().getCate_id())){
-            llIntent2.setVisibility(View.GONE);
-        }else{
-            ivTitleUmoversoty5.setText(data.getContent().getJingxuan().getTitle());
-            ivTimeUmoversoty5.setText(data.getContent().getJingxuan().getCreatetime());
-            Glide.with(mContext).load(data.getContent().getJingxuan().getN_photo()).into(ivPicUmoversoty5);
-            tp = ivTitleUmoversoty5 .getPaint();
-            tp.setFakeBoldText(true);
-        }
+
+        ivTitleUmoversoty5.setText(data.getContent().getJingxuan().getTitle());
+        ivTimeUmoversoty5.setText(data.getContent().getJingxuan().getCreatetime());
+        Glide.with(mContext).load(data.getContent().getJingxuan().getN_photo()).into(ivPicUmoversoty5);
+        tp = ivTitleUmoversoty5 .getPaint();
+        tp.setFakeBoldText(true);
         rlShichang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

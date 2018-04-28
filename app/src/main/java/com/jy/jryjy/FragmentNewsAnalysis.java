@@ -12,6 +12,7 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.github.jdsjlzx.interfaces.OnItemClickListener;
@@ -304,10 +305,12 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
     private class BannerPagerHolder extends ViewHolder<String> {
 
         private ImageView mImage;
+        private TextView mText;
 
         private BannerPagerHolder(View itemView) {
             super(itemView);
             mImage = itemView.findViewById(R.id.image);
+            mText = itemView.findViewById(R.id.text);
         }
 
         @Override
@@ -315,6 +318,7 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
             Glide.with(mImage.getContext())
                     .load(data)
                     .into(mImage);
+            mText.setText(m_bannerBean.get(position).getTitle());
         }
     }
 

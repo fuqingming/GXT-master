@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="novate-1.5.4.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/novate-1.5.4.5.aar/ede39a830d58b094b9861f04e7dd2731/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/novate-1.5.4.5.aar/ede39a830d58b094b9861f04e7dd2731/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tamic.novate/novate/1.5.4.5/85c7836d12a0ca1c57b06c8ae4dd8cf87eb07cdd/novate-1.5.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

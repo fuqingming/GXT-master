@@ -44,7 +44,7 @@ public class NewsAnalysisAdapter extends BaseRecyclerAdapter<TeacherAnalysisBean
     @Override
     protected void covert(BaseRecyclerViewHolder holder, TeacherAnalysisBean data, int position) {
         ButterKnife.bind(this, holder.getView());
-        Glide.with(mContext).load(data.getN_photo()).placeholder(R.mipmap.head_s).into(m_ivIcon);
+        Glide.with(mContext).load(data.getT_photo()).placeholder(R.mipmap.head_s).into(m_ivIcon);
         m_ivName.setText(data.getT_nic_name());
         m_ivTime.setText(data.getCreatetime());
         m_ivTitle.setText(data.getTitle());

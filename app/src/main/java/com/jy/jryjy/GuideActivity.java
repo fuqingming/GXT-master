@@ -26,6 +26,7 @@ public class GuideActivity extends BaseAppCompatActivity {
     private ViewPager viewPager;
     private ImageView ivIndicator1;
     private ImageView ivIndicator2;
+    private ImageView ivIndicator3;
     @Override
     protected int setLayoutResourceId() {
         return R.layout.activity_guide;
@@ -46,19 +47,22 @@ public class GuideActivity extends BaseAppCompatActivity {
         viewPager = findViewById(R.id.guide_pages);
         ivIndicator1 = findViewById(R.id.iv_indicator1);
         ivIndicator2 = findViewById(R.id.iv_indicator2);
+        ivIndicator3 = findViewById(R.id.iv_indicator3);
 
         LayoutInflater inflater = getLayoutInflater();
         View vPage1 = inflater.inflate(R.layout.activity_guide_page_1, null);
         View vPage2 = inflater.inflate(R.layout.activity_guide_page_2, null);
+        View vPage3 = inflater.inflate(R.layout.activity_guide_page_3, null);
 
         ArrayList<View> pageViews = new ArrayList<>();
         pageViews.add(vPage1);
         pageViews.add(vPage2);
+        pageViews.add(vPage3);
 
         viewPager.setAdapter(new GuidePagerAdapter(GuideActivity.this, pageViews));
 
         // 立即体验
-        Button btnGoto = vPage2.findViewById(R.id.btn_goto);
+        Button btnGoto = vPage3.findViewById(R.id.btn_goto);
         btnGoto.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -96,6 +100,7 @@ public class GuideActivity extends BaseAppCompatActivity {
             {
                 ivIndicator1.setImageResource(R.drawable.shape_circle_gray);
                 ivIndicator2.setImageResource(R.drawable.shape_circle_gray);
+                ivIndicator3.setImageResource(R.drawable.shape_circle_gray);
                 switch (nIndex+1)
                 {
                     case 1:
@@ -104,6 +109,10 @@ public class GuideActivity extends BaseAppCompatActivity {
 
 
                     case 2:
+                        ivIndicator2.setImageResource(R.drawable.shape_circle_red);
+                        break;
+
+                    case 3:
                         ivIndicator2.setImageResource(R.drawable.shape_circle_red);
                         break;
 

@@ -46,7 +46,7 @@ public class NewsActivity extends BaseAppCompatActivity {
 
 	@Override
 	protected void setUpView() {
-		Utils.initCommonTitle(this,"学期堂",true);
+		Utils.initCommonTitle(this,"期学堂",true);
 
 		viewPagerIndicator.setTabItemTitles(titles);
 		viewPagerIndicator.setVisibleTabCount(4);
