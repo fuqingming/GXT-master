@@ -275,7 +275,7 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
     private void initBanner() {
 
         final PagerOptions pagerOptions = new PagerOptions.Builder(getMContext())
-                .setTurnDuration(2000)
+                .setTurnDuration(4000)
                 .setIndicatorSize(Utils.dp2px(getMContext(),6))
                 .setIndicatorColor(getMContext().getResources().getColor(R.color.dark),getMContext().getResources().getColor(R.color.red) )
                 .setIndicatorAlign(RelativeLayout.CENTER_IN_PARENT)

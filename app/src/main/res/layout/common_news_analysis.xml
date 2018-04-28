@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@color/app_backgrount_color"
+    android:layout_marginTop="-5dp"
     >
 
     <com.joker.pager.BannerPager

@@ -295,6 +295,7 @@ public class ResponseHallBean extends ResponseBaseBean {
         private String cate_id;
         private String catename;
         private String detail_url;
+        private String t_photo;
 
         public String getN_id() {
             return n_id;
@@ -374,6 +375,14 @@ public class ResponseHallBean extends ResponseBaseBean {
 
         public void setDetail_url(String detail_url) {
             this.detail_url = detail_url;
+        }
+
+        public String getT_photo() {
+            return t_photo;
+        }
+
+        public void setT_photo(String t_photo) {
+            this.t_photo = t_photo;
         }
     }
 
@@ -388,6 +397,7 @@ public class ResponseHallBean extends ResponseBaseBean {
         private String cate_id;
         private String catename;
         private String detail_url;
+        private String t_photo;
 
         public String getN_id() {
             return n_id;
@@ -466,6 +476,14 @@ public class ResponseHallBean extends ResponseBaseBean {
 
         public void setDetail_url(String detail_url) {
             this.detail_url = detail_url;
+        }
+
+        public String getT_photo() {
+            return t_photo;
+        }
+
+        public void setT_photo(String t_photo) {
+            this.t_photo = t_photo;
         }
     }
 }
