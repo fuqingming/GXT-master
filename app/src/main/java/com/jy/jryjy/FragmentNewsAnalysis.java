@@ -356,18 +356,15 @@ public class FragmentNewsAnalysis extends BasePopListFragment<TeacherAnalysisBea
                         initBanner();
                     }
 
-                    List<TeacherAnalysisBean> responseFragmentHallBeen = new ArrayList<>();
-                    responseFragmentHallBeen.addAll(response.getContent().getJuemi().getData());
-                    if(responseFragmentHallBeen.size() > 0){
-                        executeOnLoadDataSuccess(responseFragmentHallBeen);
+                    if(response.getContent().getJuemi().getData().size() > 0){
+                        executeOnLoadDataSuccess(response.getContent().getJuemi().getData());
                     }else{
                         if(m_arrBanner.size() > 0){
                             mErrorLayout.setErrorType(ErrorLayout.HIDE_LAYOUT);
                         }else{
-                            executeOnLoadDataSuccess(responseFragmentHallBeen);
+                            executeOnLoadDataSuccess(response.getContent().getJuemi().getData());
                         }
                     }
-                    executeOnLoadDataSuccess(responseFragmentHallBeen);
 				}
             }
 

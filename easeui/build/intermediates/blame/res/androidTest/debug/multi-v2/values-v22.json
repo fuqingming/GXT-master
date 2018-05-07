@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/fuqingming/Documents/GitHub/GXT-master/easeui/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "F:\\work\\GXT-master\\easeui\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/fuqingming/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5c25075d1a03c6731b2bb2fc3b2e16c2/res/values-v22/values-v22.xml",
+                    "source": "C:\\Users\\vip\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b1004f6d42c811f0eac96241da2d9eca\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

@@ -26,6 +26,9 @@ public class ApiStores {
     /** 修改密码 */
     public static final String changePwd = urlVersion + "changePwd2";
 
+    /** 修改密码 */
+    public static final String changePhoto = urlVersion + "changePhoto";
+
     /** 修改昵称 */
     public static final String changeName = urlVersion + "changeName";
 

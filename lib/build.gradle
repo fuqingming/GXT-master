@@ -41,7 +41,7 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     compile 'com.kaopiz:kprogresshud:1.1.0'
     //http
-    compile 'com.tamic.novate:novate:1.5.4.5'
+    compile 'com.tamic.novate:novate:1.5.5'
 
     //百度统计
     compile 'com.baidu.mobstat:mtj-sdk:3.8.2.1'

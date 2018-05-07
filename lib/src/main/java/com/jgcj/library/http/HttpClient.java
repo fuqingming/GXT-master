@@ -7,6 +7,7 @@ import android.util.Log;
 
 import com.tamic.novate.Novate;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -91,7 +92,9 @@ public class HttpClient {
 
     public static <T> void post(String url,Map<String,Object> params,HttpCallback<T> httpCallback){
         mNovate.rxBody(url,params,httpCallback);
-
     }
 
+    public static <T> void postFile(String url, File file, HttpCallback<T> httpCallback){
+        mNovate.rxUploadWithPart(url,file,httpCallback);
+    }
 }

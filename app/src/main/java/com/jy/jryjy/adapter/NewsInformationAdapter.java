@@ -41,7 +41,7 @@ public class NewsInformationAdapter extends BaseRecyclerAdapter<TeacherAnalysisB
         ButterKnife.bind(this, holder.getView());
         m_ivTitle.setText(data.getTitle());
         m_ivTime.setText(data.getCreatetime());
-        Glide.with(mContext).load(data.getT_photo()).into(m_ivPic);
+        Glide.with(mContext).load(data.getN_photo()).into(m_ivPic);
         TextPaint paint = m_ivTitle.getPaint();
         paint.setFakeBoldText(true);
     }

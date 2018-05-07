@@ -26,7 +26,7 @@ import butterknife.Unbinder;
 /**
  *  on 5/18/16.
  */
-public class FragmentNewsRecord extends BaseListFragment<TeacherAnalysisBean> {
+public class FragmentNewsRecord extends BaseListFragment {
 
     private NewsRecordAdapter m_adapterNewsAnalysisAdapter = new NewsRecordAdapter();
 
@@ -36,7 +36,7 @@ public class FragmentNewsRecord extends BaseListFragment<TeacherAnalysisBean> {
     }
 
     @Override
-    protected BaseRecyclerAdapter<TeacherAnalysisBean> getListAdapter() {
+    protected BaseRecyclerAdapter getListAdapter() {
         return m_adapterNewsAnalysisAdapter;
     }
 

@@ -190,7 +190,7 @@ public class FragmentHall extends BaseListFragment<ResponseHallBean> {
 
 	@Override
 	protected void initLayoutManager() {
-		mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+			mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 		mRecyclerView.setLoadMoreEnabled(false);
 		View header = LayoutInflater.from(getMContext()).inflate(R.layout.common_fragment_hall_banner,mRecyclerView, false);
 		m_ivMore = header.findViewById(R.id.iv_image_more);
