@@ -113,7 +113,7 @@ public class GuideActivity extends BaseAppCompatActivity {
                         break;
 
                     case 3:
-                        ivIndicator2.setImageResource(R.drawable.shape_circle_red);
+                        ivIndicator3.setImageResource(R.drawable.shape_circle_red);
                         break;
 
                     default:

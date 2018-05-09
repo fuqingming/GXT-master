@@ -53,9 +53,10 @@ public class NewsAnalysisAdapter extends BaseRecyclerAdapter<TeacherAnalysisBean
         TextPaint paint = m_ivTitle.getPaint();
         paint.setFakeBoldText(true);
         m_ivText.setText(data.getDesc());
-        if(data.getNeican_id() == TeacherAnalysisBean.NOON){
+        m_ivType.setImageResource(R.mipmap.noon_ic);
+        if(TeacherAnalysisBean.NOON.equals(data.getNeican_id())){
             m_ivType.setImageResource(R.mipmap.noon_ic);
-        }else if(data.getNeican_id() == TeacherAnalysisBean.NIGHT){
+        }else if(TeacherAnalysisBean.NIGHT.equals(data.getNeican_id())){
             m_ivType.setImageResource(R.mipmap.night_ic);
         }
     }
